@@ -1,0 +1,29 @@
+# Dependencies
+markdown: kramdown
+
+kramdown:
+  input: GFM
+
+pygments: false
+
+# Permalinks
+permalink: '/announcements/:title'
+
+# Setup
+title: OxyPlot
+tagline: 'Cross-platform plotting'
+description: 'A cross-platform plotting library for .NET'
+url: http://oxyplot.org
+
+author:
+  name: 'Oystein Bjorke'
+  url: https://twitter.com/OysteinBjorke
+
+paginate: 5
+paginate_path: '/announcements/:num'
+
+# Custom vars
+version: 2.0.0
+
+github:
+  repo: https://github.com/caliburn-micro/caliburn.micro
