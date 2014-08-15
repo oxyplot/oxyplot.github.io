@@ -26,4 +26,4 @@ paginate_path: '/announcements/:num'
 version: 2.0.0
 
 github:
-  repo: https://github.com/caliburn-micro/caliburn.micro
+  repo: https://github.com/oxyplot/oxyplot
