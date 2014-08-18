@@ -9,6 +9,6 @@ Basic support is provided at [discussion.oxyplot.org][ue] and by the community o
 
 [license]: https://raw.githubusercontent.com/oxyplot/oxyplot/master/LICENSE
 [github]: https://github.com/oxyplot/oxyplot
-[ue]: https://discussion.oxyplot.org/
+[ue]: https://oxyplot.userecho.com/
 [so]: http://stackoverflow.com/questions/tagged/oxyplot
 [issues]: https://github.com/oxyplot/oxyplot/issues
