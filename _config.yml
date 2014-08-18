@@ -11,7 +11,7 @@ permalink: '/announcements/:title'
 
 # Setup
 title: OxyPlot
-tagline: 'Cross-platform plotting'
+tagline: 'plotting for .NET'
 description: 'A cross-platform plotting library for .NET'
 url: http://oxyplot.org
 
@@ -23,7 +23,7 @@ paginate: 5
 paginate_path: '/announcements/:num'
 
 # Custom vars
-version: 2.0.0
+version: 2014.1
 
 github:
   repo: https://github.com/oxyplot/oxyplot
