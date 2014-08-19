@@ -17,13 +17,18 @@ url: http://oxyplot.org
 
 author:
   name: 'Oystein Bjorke'
-  url: https://twitter.com/OysteinBjorke
+  url: http://twitter.com/OysteinBjorke
 
 paginate: 5
 paginate_path: '/announcements/:num'
 
 # Custom vars
 version: 2014.1
+forum: http://discussion.oxyplot.org
+nuget: http://www.nuget.org/packages?q=oxyplot
+examples: http://resources.oxyplot.org/examplebrowser
+twitter: http://twitter.com/search?q=oxyplot
+so : http://stackoverflow.com/questions/tagged/oxyplot?sort=newest
 
 github:
-  repo: https://github.com/oxyplot/oxyplot
+  repo: http://github.com/oxyplot/oxyplot
