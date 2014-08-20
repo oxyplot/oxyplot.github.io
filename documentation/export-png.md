@@ -24,5 +24,5 @@ using (var stream = new MemoryStream())
     pngExporter.Export(plotModel, stream, 600, 400, Brushes.White);
 }
 
-// TODO
+// TODO : write content of stream to clipboard
 ```

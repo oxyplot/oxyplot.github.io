@@ -18,7 +18,7 @@ using (var stream = File.Create(fileName))
 - width/height units
 - document svg option
 
-Note that SVG can be exported to a standalone document (.svg file) or a HTML5 element (<svg>).
+Note that SVG can be exported to a standalone document (.svg file) or a HTML5 `<svg\>` element.
 
 ### Text measuring
 

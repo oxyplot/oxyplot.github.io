@@ -12,7 +12,7 @@ title: Documentation
     - [Build](./build)
  - [Getting Started](./getting-started)
     - [WPF](./hello-wpf)
-    - [WPF](./hello-wpf-xaml) (XAML only)
+    - [WPF+XAML](./hello-wpf-xaml) (plot defined in XAML)
     - [WPF](./hello-wpf-vb) (VB.NET)
     - [Windows forms](./hello-windows-forms)
     - [Silverlight](./hello-silverlight)
@@ -61,5 +61,3 @@ title: Documentation
     - [Coding style](./coding-style)
     - [Documentation](./documentation)
     - [Web-site](./web-site)
-
- - API reference

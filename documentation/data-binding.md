@@ -10,4 +10,4 @@ title: Data binding
 
 ### Updating the plot after data has changed
 
-OxyPlot is not observing property or collection changes. This means that the client application is responsible for refreshing the plot when the content has changed. See the "[RefreshPlot|how to refresh a plot]" section for information about how to do this.
+OxyPlot is not observing property or collection changes. This means that the client application is responsible for refreshing the plot when the content has changed. See the [how to refresh a plot](./refresh-plot) section for information about how to do this.

@@ -3,7 +3,7 @@ layout: page
 title: Refresh a plot
 ---
 
-The OxyPlot controls do not automatically refresh when you change properties of the PlotModel (e.g. changing series, axes, annotations or general plot properties).
+The OxyPlot controls do not automatically refresh when you change properties of the `PlotModel` (e.g. changing series, axes, annotations or general plot properties).
 
 You have the following options to update the plot:
 

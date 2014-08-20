@@ -3,12 +3,7 @@ layout: page
 title: Tracker
 ---
 
-== Tracker
-
-// TODO //
-
-The 'tracker' is shown when you press down the left mouse button over some data in the plot.
-By default the tracker shows the values of the current point.
+The 'tracker' is shown when you press down the left mouse button over some data in the plot. By default the tracker shows the values of the current point.
 
 
 ### Format string
@@ -29,7 +24,7 @@ The culture of the tracker format string can be set in the `Culture` property in
 The WPF/Silverlight `Plot` controls contain a dependency property `DefaultTrackerTemplate` where a custom `ControlTemplate` can be defined.
 When the tracker is shown, the `DataContext` will be set to a `TrackerHitResult`. You can bind `Position` and data properties from the hit results. 
 
-```xml
+``` xml
 TODO: example template
 ```
 
@@ -40,7 +35,7 @@ The WPF and Silverlight projects contain a `TrackerControl` that can be used in 
 You should bind the `Position`, `LineExtents` and `Content` properties to data in the `TrackerHitResult`.
 Example
 
-```xml
+``` xml
 TODO: template using TrackerControl
 ```
 
