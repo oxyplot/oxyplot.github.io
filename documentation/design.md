@@ -36,6 +36,6 @@ The following guidelines are picked up mostly from the books by Edward Tufte and
 
 ### Recommended reading
 
-- [http://www.edwardtufte.com/tufte/books_vdqi|The Visual Display of Quantitative Information] (Edward Tufte) [http://books.google.com/books/about/The_visual_display_of_quantitative_infor.html?id=BHazAAAAIAAJ|google] [http://www.amazon.com/Visual-Display-Quantitative-Information/dp/096139210X|amazon] [https://sheffield.ac.uk/content/1/c6/06/59/35/Scope%20Tutorial%201.pdf|tutorial]
-- [http://www.perceptualedge.com/examples.php|Perceptual edge] (Stephen Few)
-- [http://www.perceptualedge.com/library.php#Books|Show me the numbers] (Stephen Few) [http://www.amazon.com/Show-Me-Numbers-Designing-Enlighten/dp/0970601999|amazon] [http://books.google.com/books/about/Show_me_the_numbers.html?id=kaOFQgAACAAJ|google]
+- [The Visual Display of Quantitative Information](http://www.edwardtufte.com/tufte/books_vdqi) (Edward Tufte) [google](http://books.google.com/books/about/The_visual_display_of_quantitative_infor.html?id=BHazAAAAIAAJ) [amazon](http://www.amazon.com/Visual-Display-Quantitative-Information/dp/096139210X) [tutorial](https://sheffield.ac.uk/content/1/c6/06/59/35/Scope%20Tutorial%201.pdf)
+- [Perceptual edge](http://www.perceptualedge.com/examples.php) (Stephen Few)
+- [Show me the numbers](http://www.perceptualedge.com/library.php#Books) (Stephen Few) [amazon](http://www.amazon.com/Show-Me-Numbers-Designing-Enlighten/dp/0970601999) [google](http://books.google.com/books/about/Show_me_the_numbers.html?id=kaOFQgAACAAJ)

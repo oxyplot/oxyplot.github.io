@@ -10,8 +10,20 @@ title: Documentation
     - [FAQ](./faq)
     - [License](./license)
     - [Build](./build)
- - Getting Started
+ - [Getting Started](./getting-started)
     - [WPF](./hello-wpf)
+    - [WPF](./hello-wpf-xaml) (XAML only)
+    - [WPF](./hello-wpf-vb) (VB.NET)
+    - [Windows forms](./hello-windows-forms)
+    - [Silverlight](./hello-silverlight)
+    - [Windows Universal App](./hello-windows-universal-app)
+    - [Windows Store App](./hello-windows-store-app)
+    - [Windows Phone App](./hello-windows-phone)
+    - [GTK#](./hello-gtk)
+    - [Xamarin.Forms](./hello-xamarin-forms)
+    - [Xamarin.iOS](./hello-xamarin-ios)
+    - [Xamarin.Android](./hello-xamarin-android)
+    - [Xamarin.Mac](./hello-xamarin-mac)
  - Common tasks
     - [Data binding](./data-binding)
     - [How to refresh a plot](./refresh-plot)
@@ -20,16 +32,16 @@ title: Documentation
     - [Export to PDF](./export-pdf)
     - [Export to SVG](./export-svg)
  - Plot model
-    - [PlotModel](./plotmodel)
+    - [PlotModel](./plot-models)
     - [Axes](./axes)
     - [Series](./series)
     - [Annotations](./annotations)
 
  - Plot controllers
-   - [PlotController](./plotcontroller)
+   - [PlotController](./plot-controllers)
 
  - Plot views
-    - [PlotView](./plotview)
+    - [PlotView](./plot-views)
     - [Tracker](./tracker)
 
  - Guidelines
@@ -37,9 +49,9 @@ title: Documentation
     - [Design](./design)
 
  - Extras
-    - [Creating PDF files](./portable-document)
-    - [Report model](./report-model)
-    - [Drawing model](./drawing-model)
+    - [Creating PDF files](./portable-documents)
+    - [Report model](./report-models)
+    - [Drawing model](./drawing-models)
 
  - Contribute
     - [Contributions](./contributions)

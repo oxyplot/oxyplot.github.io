@@ -16,31 +16,19 @@ New features and bugs should always be added in the [issue tracker][issues]. It 
 - Include examples or unit tests for the change / new feature
 - Make sure the code builds on all platforms
 - Make sure all unit tests are passing
-- The new code should be StyleCop compliant (see [CodingStyle|coding style])
+- The new code should be StyleCop compliant (see [coding style](./coding-style))
 
 And please:
 
+- create a branch for each feature
 - commit clean change lists, make it easy to review
-- define full name and e-mail address in the change list user information (to be used in the AUTHORS and CONTRIBUTORS files)
+- define full name and e-mail address in the change list user information
+- update the AUTHORS and CONTRIBUTORS files if you are not already listed there
 - include the issue number in the description, e.g. "#9945"
 - do not mix multiple issues in the same change list
 - do not clean code in the same change list as fixing an issue, do it in a separate change list
 
-### Set user information in SourceTree
-
-Tools | Options | General | Default user information
-
-{Images/SourceTree_UserInformation.png}
-
-### Set user information in TortoiseGit
-
-Settings | Commit | Username: "First Last <email@address.com>"
-
-{Images/TortoiseHg_UserInformation.png}
-
-### Set user information in Git
-
-See [first time Git setup](http://git-scm.com/book/en/Getting-Started-First-Time-Git-Setup).
-
 [issues]: https://github.com/oxyplot/oxyplot/issues
 [forum]: http://discussion.oxyplot.org
+[git-setup]: http://git-scm.com/book/en/Getting-Started-First-Time-Git-Setup
+[git-branching-model]: http://nvie.com/posts/a-successful-git-branching-model/

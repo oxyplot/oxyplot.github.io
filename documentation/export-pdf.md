@@ -3,12 +3,12 @@ layout: page
 title: Export to PDF
 ---
 
-// TODO //
+You have two options when you want to export your plots to PDF. You can use the `OxyPlot.PdfExporter` that is included in the portable OxyPlot core library, or the `OxyPlot.Pdf.PdfExporter` included in the OxyPlot.Pdf library. The latter depends on [PdfSharp][pdfsharp]/[SilverPdf][silverpdf] and is not portable.
 
 ### Core Pdf writer
 
 - Simple PDF export is included in OxyPlot core library
-- Limitations (text encoding, fonts, images)
+- There are limitations on text encoding, fonts and images
 
 ``` csharp
 using (var stream = File.Create(fileName))
@@ -22,7 +22,8 @@ See also the section about [portable documents](./portable-documents) that can b
 
 ### OxyPlot.Pdf
 
-- based on the [PdfSharp](http://www.pdfsharp.net/) / [SilverPdf](https://silverpdf.codeplex.com) open-source projects
+- based on the [PdfSharp][pdfsharp] / [SilverPdf][silverpdf] open-source projects
 - better handling of fonts and images
 
-
+[pdfsharp]: http://www.pdfsharp.net/
+[silverpdf]: https://silverpdf.codeplex.com
