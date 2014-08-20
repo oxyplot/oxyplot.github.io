@@ -32,7 +32,24 @@ PM> Install-Package OxyPlot.Silverlight
 Add a class that creates a `PlotModel` and a `FunctionSeries`.
 
 ``` csharp
-@include ..\Source\Examples\DocumentationExamples\HelloWorld\SilverlightApplication1\MainViewModel.cs
+namespace SilverlightApplication1
+{
+    using System;
+
+    using OxyPlot;
+    using OxyPlot.Series;
+
+    public class MainViewModel
+    {
+        public MainViewModel()
+        {
+            this.MyModel = new PlotModel { Title = "Example 1" };
+            this.MyModel.Series.Add(new FunctionSeries(Math.Cos, 0, 10, 0.1, "cos(x)"));
+        }
+
+        public PlotModel MyModel { get; set; }
+    }
+}
 ```
 
 ### Create the view
@@ -40,11 +57,27 @@ Add a class that creates a `PlotModel` and a `FunctionSeries`.
 Define the namespace in the `Window` element, set the `DataContext` and add a `PlotView` control:
 
 ``` xml
-@include ..\Source\Examples\DocumentationExamples\HelloWorld\SilverlightApplication1\MainPage.xaml
+<UserControl x:Class="SilverlightApplication1.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:oxy="clr-namespace:OxyPlot.Silverlight;assembly=OxyPlot.Silverlight"
+             xmlns:local="clr-namespace:SilverlightApplication1"
+             mc:Ignorable="d"
+    d:DesignHeight="300" d:DesignWidth="400">
+    <UserControl.DataContext>
+        <local:MainViewModel/>
+    </UserControl.DataContext>
+
+    <Grid x:Name="LayoutRoot" Background="White">
+        <oxy:PlotView Model="{Binding MyModel}"/>
+    </Grid>
+</UserControl>
 ```
 
 The application should now look like this:
 
 ![Screen shot](/public/images/documentation/silverlight-example1.png)
 
-The source code can be found in `Documentation\Examples\SilverlightApplication1`.
+The source code can be found in the [HelloWorld\SilverlightApplication1](https://github.com/oxyplot/documentation-examples/tree/master/HelloWorld/SilverlightApplication1) folder in the [documentation-examples](https://github.com/oxyplot/documentation-examples) repository.

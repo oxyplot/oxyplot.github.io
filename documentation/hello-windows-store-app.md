@@ -32,7 +32,24 @@ PM> Install-Package OxyPlot.Metro
 Add a class that creates a `PlotModel` and a `FunctionSeries`.
 
 ``` csharp
-@include ..\Source\Examples\DocumentationExamples\HelloWorld\WindowsStoreApp1\MainViewModel.cs
+namespace WindowsStoreApp1
+{
+    using System;
+
+    using OxyPlot;
+    using OxyPlot.Series;
+
+    public class MainViewModel
+    {
+        public MainViewModel()
+        {
+            this.MyModel = new PlotModel { Title = "Example 1" };
+            this.MyModel.Series.Add(new FunctionSeries(Math.Cos, 0, 10, 0.1, "cos(x)"));
+        }
+
+        public PlotModel MyModel { get; private set; }
+    }
+}
 ```
 
 ### Create the view
@@ -40,11 +57,27 @@ Add a class that creates a `PlotModel` and a `FunctionSeries`.
 Define the namespace in the `Window` element, set the `DataContext` and add a `PlotView` control:
 
 ``` xml
-@include ..\Source\Examples\DocumentationExamples\HelloWorld\WindowsStoreApp1\MainPage.xaml
+<Page
+    x:Class="WindowsStoreApp1.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:WindowsStoreApp1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:oxy="using:OxyPlot.Metro"
+    mc:Ignorable="d">
+    <Page.DataContext>
+        <local:MainViewModel/>
+    </Page.DataContext>
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <oxy:PlotView Model="{Binding MyModel}"/>
+    </Grid>
+</Page>
 ```
 
 The application should now look like this:
 
 ![Screen shot](/public/images/documentation/windows-store-app-example1.png)
 
-The source code can be found in `Documentation\Examples\WindowsStoreApp1`.
+The source code can be found in the [HelloWorld\WindowsStoreApp1](https://github.com/oxyplot/documentation-examples/tree/master/HelloWorld/WindowsStoreApp1) folder in the [documentation-examples](https://github.com/oxyplot/documentation-examples) repository.

@@ -75,4 +75,4 @@ The application should now look like this:
 
 ![Screen shot](/public/images/documentation/wpf-example1.png)
 
-The source code can be found in the [documentation-examples](https://github.com/oxyplot/documentation-examples) repository in the folder [HelloWorld\WpfApplication1](https://github.com/oxyplot/documentation-examples/tree/master/HelloWorld/WpfApplication1).
+The source code can be found in the [HelloWorld\WpfApplication1](https://github.com/oxyplot/documentation-examples/tree/master/HelloWorld/WpfApplication1) folder in the [documentation-examples](https://github.com/oxyplot/documentation-examples) repository.

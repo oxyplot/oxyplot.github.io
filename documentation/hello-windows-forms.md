@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Windows Forms example
+title: Windows.Forms example
 ---
 
 ### Create project
@@ -32,11 +32,29 @@ TODO (add component to toolbox?)
 ### Create the plot model
 
 ``` csharp
-@include ..\Source\Examples\DocumentationExamples\HelloWorld\WindowsFormsApplication1\Form1.cs
+namespace WindowsFormsApplication1
+{
+    using System;
+    using System.Windows.Forms;
+
+    using OxyPlot;
+    using OxyPlot.Series;
+
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            this.InitializeComponent();
+            var myModel = new PlotModel { Title = "Example 1" };
+            myModel.Series.Add(new FunctionSeries(Math.Cos, 0, 10, 0.1, "cos(x)"));
+            this.plot1.Model = myModel;
+        }
+    }
+}
 ```
 
 The application should now look like this:
 
 ![Screen shot](/public/images/documentation/windows-forms-example1.png)
 
-The source code can be found in `Documentation\Examples\WindowsFormsApplication1`.
+The source code can be found in the [HelloWorld\WindowsFormsApplication1](https://github.com/oxyplot/documentation-examples/tree/master/HelloWorld/WindowsFormsApplication1) folder in the [documentation-examples](https://github.com/oxyplot/documentation-examples) repository.
