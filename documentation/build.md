@@ -1,4 +1,4 @@
-﻿---
+---
 layout: page
 title: Building OxyPlot
 ---
@@ -69,6 +69,7 @@ The build steps are described in the `Build/BuildSteps.txt` file.
 
 ![Build machine screen shot](/public/images/documentation/build-machine.png)
 
+[repo]: https://github.com/oxyplot/oxyplot
 [git]: http://git-scm.com/
 [tortoise-git]: https://code.google.com/p/tortoisegit/
 [source-tree]: http://www.sourcetreeapp.com/|SourceTree
