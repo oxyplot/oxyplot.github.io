@@ -5,7 +5,9 @@ published: true
 
 OxyPlot is a cross-platform plotting library for .NET. 
 
-The code is licensed under the very liberal MIT license. This means that the library can be used in commercial applications, and modified as much as you want. But remember there is no warranty or support included...
+![Example plot](/public/images/normal-distributions.png)
+
+The code is licensed under the MIT license. This means that the library can be used in commercial applications, and modified as much as you want.
 
 The core library is a [Portable Class Library][pcl] which is shared between different user interface platforms. Custom controls are implemented for WPF, Windows 8, Windows Phone, Windows Forms, Silverlight, GTK#, Xamarin.iOS and Xamarin.Android.
 
@@ -13,7 +15,6 @@ The core library is a [Portable Class Library][pcl] which is shared between diff
 - The documentation is located at [oxyplot.org/documentation][docs] (under construction, please contribute)
 - The latest binaries can be found in the [NuGet packages][nuget]
 
-![Example plot](/public/images/normal-distributions.png)
 
 ### Supported platforms
 
@@ -27,9 +28,12 @@ The plots can be exported to file formats like [png][export-png], [pdf][export-p
 
 ### Getting started
 
-It should not take much time to get a basic plot into your application. Use the [NuGet][nuget] package manager to add the OxyPlot references. Add a `PlotView` control to your user interface. Then create a `PlotModel` and bind or assign this to the `Model` property of the control.
+1. Use the [NuGet][nuget] package manager to add the OxyPlot references. 
+2. Add a `PlotView` control to your user interface. 
+3. Create a `PlotModel`
+4. Bind or assign the `PlotModel` to the `Model` property of the control.
 
-See the [getting started][getting-started] section for more information. 
+See the [getting started][getting-started] section for more information for each platform. 
 
 ### Examples
 
@@ -41,17 +45,11 @@ The [documentation][docs] is under construction. This task has high priority, pl
 
 ### Questions
 
-Use the [discussion forum][forum] if you have questions regarding the library. You could also use [Stack Overflow][so] or the [Xamarin forum][xamarin-forum].
+Use the [discussion forum][forum] if you have questions regarding the library. You can also use [Stack Overflow][so] or the [Xamarin forum][xamarin-forum].
 
 #### Contribute
 
-This project is continuously evolving and any kind of help is greatly appreciated. It could be writing documentation, testing, coding or helping out on the discussion forum! See the [contributions][contributions] page.
-
-### Project roadmap
-- Create [Xamarin component][xamarin-component]
-- Support for [Xamarin.Mac][xamarin-mac]
-- Documentation
-- Drawing model
+This project is continuously evolving and any kind of help is greatly appreciated. See the [contributions][contributions] page for more information.
 
 ### Thanks
 
