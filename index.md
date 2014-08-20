@@ -11,9 +11,9 @@ The code is licensed under the MIT license. This means that the library can be u
 
 The core library is a [Portable Class Library][pcl] which is shared between different user interface platforms. Custom controls are implemented for WPF, Windows 8, Windows Phone, Windows Forms, Silverlight, GTK#, Xamarin.iOS and Xamarin.Android.
 
-- For examples, see the [Silverlight Example Browser][example-browser]
-- The documentation is located at [oxyplot.org/documentation][docs] (under construction, please contribute)
-- The latest binaries can be found in the [NuGet packages][nuget]
+- OxyPlot can be tested online with the [Silverlight Example Browser][example-browser]
+- The documentation is located at [oxyplot.org/documentation][docs]
+- The latest binaries can be found in the [NuGet packages][nuget-packages]
 
 
 ### Supported platforms
@@ -28,7 +28,7 @@ The plots can be exported to file formats like [png][export-png], [pdf][export-p
 
 ### Getting started
 
-1. Use the [NuGet][nuget] package manager to add the OxyPlot references. 
+1. Use the [NuGet][nuget] package manager to add the [OxyPlot package][nuget-packages] for your platform. 
 2. Add a `PlotView` control to your user interface. 
 3. Create a `PlotModel`
 4. Bind or assign the `PlotModel` to the `Model` property of the control.
@@ -37,17 +37,21 @@ See the [getting started][getting-started] section for more information for each
 
 ### Examples
 
-Example code can be found in the [repository][repo]. There is also an online [example browser][example-browser] based on Silverlight.
+Example code can be found in the [Source/Examples][repo-examples] folder in the repository. There is also an online [example browser][example-browser] based on Silverlight.
 
 ### Documentation
 
-The [documentation][docs] is under construction. This task has high priority, please contribute.
+The documentation can be found at [oxyplot.org/documentation][docs]. Note that it is under construction and this task has high priority. Please contribute!
 
 ### Questions
 
-Use the [discussion forum][forum] if you have questions regarding the library. You can also use [Stack Overflow][so] or the [Xamarin forum][xamarin-forum].
+Use the discussion forum at [discussion.oxyplot.org][forum] if you have questions regarding the library. You can also use [Stack Overflow][so] or the [Xamarin forum][xamarin-forum].
 
-#### Contribute
+### Announcements
+
+News about the library can be found under [announcements][announcements]. There is also an [atom feed][feed] for the posts.
+
+### Contribute
 
 This project is continuously evolving and any kind of help is greatly appreciated. See the [contributions][contributions] page for more information.
 
@@ -69,7 +73,8 @@ The project is supported by
   - [OzCode VS extension][ozcode-extension]
 - [UserEcho][userecho]
 
-[nuget]: http://www.nuget.org/packages?q=oxyplot
+[nuget]: http://www.nuget.org/
+[nuget-packages]: http://www.nuget.org/packages?q=oxyplot
 [pcl]: http://msdn.microsoft.com/en-us/library/vstudio/gg597391(v=vs.100).aspx
 [export-pdf]: /documentation/export-pdf
 [export-png]: /documentation/export-png
@@ -80,9 +85,11 @@ The project is supported by
 [contributions]: /documentation/contributions
 [getting-started]: /documentation/getting-started
 [supported-platforms]: /documentation/supported-platforms
+[announcements]: /announcements
 [feed]: http://oxyplot.org/atom.xml
 
 [repo]: https://github.com/oxyplot/oxyplot
+[repo-examples]: https://github.com/oxyplot/oxyplot/tree/master/Source/Examples
 [contributors]: https://github.com/oxyplot/oxyplot/graphs/contributors
 
 [example-browser]: http://resources.oxyplot.org/examplebrowser/
