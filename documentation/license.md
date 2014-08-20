@@ -1,17 +1,13 @@
-﻿---
+---
 layout: page
 title: License
 ---
 
-Information about the license is found in the `~/LICENSE` file. 
+The license can be found in the [~/LICENSE][license] file that is located in the root folder of the repository.
 
-OxyPlot is licensed under the [MIT](http://en.wikipedia.org/wiki/MIT_License) license. This is the shortest and probably broadest of all the popular open-source licenses. Its terms are very loose and more permissive than most other licenses. It is also compatible with [GPL](http://en.wikipedia.org/wiki/GPL).
+OxyPlot is licensed under the [MIT][mit] license. This is the shortest and probably broadest of all the popular open-source licenses. Its terms are very loose and more permissive than most other licenses. It is also compatible with [GPL][gpl].
 
-```
-@include ..\LICENSE
-```
-
-The license is explained in [a short guide to open source licenses](http://www.smashingmagazine.com/2010/03/24/a-short-guide-to-open-source-and-similar-licenses/):
+The license is explained in [a short guide to open source licenses][guide]:
 
 - You can use, copy and modify the software however you want. No one can prevent you from using it on any project, from copying it however many times you want and in whatever format you like, or from changing it however you want.
 - You can give the software away for free or sell it. You have no restrictions on how to distribute it.
@@ -34,3 +30,8 @@ Information about the contributors is found in the `~/CONTRIBUTORS` file.
 ```
 @include ..\CONTRIBUTORS
 ```
+
+[license]: https://raw.githubusercontent.com/oxyplot/oxyplot/master/LICENSE
+[guide]: http://www.smashingmagazine.com/2010/03/24/a-short-guide-to-open-source-and-similar-licenses/
+[mit]: http://en.wikipedia.org/wiki/MIT_License
+[gpl]: http://en.wikipedia.org/wiki/GPL
