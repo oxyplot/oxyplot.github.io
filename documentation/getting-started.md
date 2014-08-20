@@ -5,7 +5,7 @@ title: Getting started
 
 How to get started with OxyPlot
 
-### C# 
+### C&#35; 
 
 - [WPF](./hello-wpf)
 - [WPF+XAML](./hello-wpf-xaml) (plot defined in XAML)
