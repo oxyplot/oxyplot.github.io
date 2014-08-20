@@ -3,6 +3,8 @@ layout: page
 title: Series
 ---
 
+Series is the content that displays the data in the plot.
+
 // TODO //
 
 ### Title
