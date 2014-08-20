@@ -47,7 +47,11 @@ The documentation can be found at [oxyplot.org/documentation][docs]. Note that i
 
 Use the discussion forum at [discussion.oxyplot.org][forum] if you have questions regarding the library. You can also use [Stack Overflow][so] or the [Xamarin forum][xamarin-forum].
 
-#### Contribute
+### Announcements
+
+News about the library can be found under [announcements][announcements]. There is also an [atom feed][feed] for the posts.
+
+### Contribute
 
 This project is continuously evolving and any kind of help is greatly appreciated. See the [contributions][contributions] page for more information.
 
@@ -81,6 +85,7 @@ The project is supported by
 [contributions]: /documentation/contributions
 [getting-started]: /documentation/getting-started
 [supported-platforms]: /documentation/supported-platforms
+[announcements]: /announcements
 [feed]: http://oxyplot.org/atom.xml
 
 [repo]: https://github.com/oxyplot/oxyplot
