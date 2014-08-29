@@ -3,9 +3,11 @@ layout: home
 published: true
 ---
 
-OxyPlot is a cross-platform plotting library for .NET. 
+[![Build status](https://ci.appveyor.com/api/projects/status/mlaqnruo6ic3oe60)](https://ci.appveyor.com/project/objorke/oxyplot)
 
 ![Example plot](/public/images/normal-distributions.png)
+
+OxyPlot is a cross-platform plotting library for .NET. 
 
 The code is licensed under the MIT license. This means that the library can be used in commercial applications, and modified as much as you want.
 
