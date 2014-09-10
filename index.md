@@ -64,7 +64,6 @@ The project is supported by
 - [Jetbrains][jetbrains]
   - [Resharper][resharper]
   - [dotCover][dotcover]
-  - [TeamCity][teamcity]
 - [NDepend][ndepend]
   - [NDepend v5][ndepend]
 - [Red Gate Software][redgate]
@@ -109,7 +108,6 @@ The project is supported by
 [jetbrains]: http://www.jetbrains.com/
 [resharper]: http://www.jetbrains.com/resharper/
 [dotcover]: http://www.jetbrains.com/dotcover/index.html?topDC
-[teamcity]: http://www.jetbrains.com/teamcity
 [ndepend]: http://www.ndepend.com/
 [redgate]: http://www.red-gate.com/
 [ants]: http://www.red-gate.com/products/dotnet-development/ants-performance-profiler/
