@@ -11,7 +11,6 @@ permalink: '/announcements/:title'
 
 # Setup
 title: OxyPlot
-tagline: 'plotting for .NET'
 description: 'A cross-platform plotting library for .NET'
 url: http://oxyplot.org
 
@@ -24,11 +23,11 @@ paginate_path: '/announcements/:num'
 
 # Custom vars
 version: 2014.1
-forum: http://discussion.oxyplot.org
+forum: http://discussion.oxyplot.org/
 nuget: http://www.nuget.org/packages?q=oxyplot
-examples: http://resources.oxyplot.org/examplebrowser
+examples: http://resources.oxyplot.org/examplebrowser/
 twitter: http://twitter.com/search?q=oxyplot
 so : http://stackoverflow.com/questions/tagged/oxyplot?sort=newest
 
 github:
-  repo: http://github.com/oxyplot/oxyplot
+  repo: http://github.com/oxyplot/oxyplot/
