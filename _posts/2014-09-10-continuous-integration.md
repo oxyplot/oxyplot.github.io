@@ -3,16 +3,17 @@ layout: post
 title: Continuous integration
 ---
 
-The OxyPlot build is now hosted at [AppVeyor][appveyor]! This is a great service that does both [continuous integration][ci] and deployment.
-See the `appveyor.yml` file for the build configuration. [StyleCop][stylecop] and [Gtk#][gtksharp] are now installed by [chocolatey][chocolatey].
+OxyPlot is now built at [AppVeyor][appveyor]. This change has simplified the build system significantly and removed the need for a local build server. AppVeyor provides a great service that does both [continuous integration][ci] and deployment for all platforms except the Xamarin ones.
 
-All OxyPlot NuGet packages except the Xamarin packages will be updated in each build.
-The Xamarin.Android and Xamarin.iOS packages are not included in the AppVeyor build, and are still built locally on a Mac. 
-It would be great if we could get a similar build and deployment solution also for these projects!
+The build is configured in the `appveyor.yml` file and handles both the `develop` and `master` branches.
 
-The Silverlight "[Example browser][examplebrowser]" will also be updated at each build.
+The [StyleCop][stylecop], [Gtk#][gtksharp] and [Lynx Toolkit][lynx-toolkit] prerequisities are now installed by [chocolatey][chocolatey].
 
-Builds on the `develop` branch will get a pre-release suffix `-alpha` in the NuGet packages, this will make it possible to select between "Stable Only" and "Include Prerelease" channels in the NuGet manager.
+The NuGet packages will be updated by each build. The Xamarin.Android and Xamarin.iOS packages are not included in the AppVeyor build, and are still built locally on a Mac. It would be great if we could get a similar build and deployment solution also for these projects...
+
+The Silverlight "[Example browser][examplebrowser]" will also be updated by each build.
+
+Builds on the `develop` branch will get a pre-release suffix `-alpha` in the version numbers. This will make it possible to select between "Stable Only" and "Include Prerelease" versions in the NuGet manager.
 
 [appveyor]: http://appveyor.com/
 [ci]: http://en.wikipedia.org/wiki/Continuous_integration
@@ -20,4 +21,5 @@ Builds on the `develop` branch will get a pre-release suffix `-alpha` in the NuG
 [chocolatey]: http://chocolatey.org/
 [stylecop]: http://stylecop.codeplex.com/
 [gtksharp]: http://www.mono-project.com/docs/gui/gtksharp/
+[lynx-toolkit]: https://github.com/objorke/lynx-toolkit/
 [examplebrowser]: http://resources.oxyplot.org/examplebrowser/
