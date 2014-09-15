@@ -15,6 +15,8 @@ The Silverlight "[Example browser][examplebrowser]" will also be updated by each
 
 Builds on the `develop` branch will get a pre-release suffix `-alpha` in the version numbers. This will make it possible to select between "Stable Only" and "Include Prerelease" versions in the NuGet manager.
 
+Another great feature is that every pull request on GitHub will automatically trig a build on AppVeyor. A broken build will be shown on the pull request page!!
+
 [appveyor]: http://appveyor.com/
 [ci]: http://en.wikipedia.org/wiki/Continuous_integration
 [oxyplot-ci]: https://ci.appveyor.com/project/objorke/oxyplot
