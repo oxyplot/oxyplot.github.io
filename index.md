@@ -3,8 +3,6 @@ layout: home
 published: true
 ---
 
-[![Build status](https://ci.appveyor.com/api/projects/status/mlaqnruo6ic3oe60)](https://ci.appveyor.com/project/objorke/oxyplot)
-
 ![Example plot](/public/images/normal-distributions.png)
 
 OxyPlot is a cross-platform plotting library for .NET. 
