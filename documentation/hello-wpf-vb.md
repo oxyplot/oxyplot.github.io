@@ -63,7 +63,7 @@ and edit the main window XAML:
 <Window x:Class="MainWindow"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:oxy="http://oxyplot.codeplex.com"
+    xmlns:oxy="http://oxyplot.org/wpf"
     xmlns:local="clr-namespace:SimleDemoVB"
     Title="OxyPlot in VB.NET" Height="480" Width="640" Icon="OxyPlot.ico">
     <Window.DataContext>
