@@ -3,17 +3,17 @@ layout: page
 title: Getting started
 ---
 
-How to get started with OxyPlot
+The following pages describes how to get started with OxyPlot on the supported platforms.
 
 ### C&#35; 
 
 - [WPF](./hello-wpf)
 - [WPF+XAML](./hello-wpf-xaml) (plot defined in XAML)
-- [Windows forms](./hello-windows-forms)
+- [Windows Forms](./hello-windows-forms)
 - [Silverlight](./hello-silverlight)
 - [Windows Universal App](./hello-windows-universal-app)
 - [Windows Store App](./hello-windows-store-app)
-- [Windows Phone App](./hello-windows-phone)
+- [Windows Phone Silverlight App](./hello-windows-phone)
 - [GTK#](./hello-gtk)
 - [Xamarin.Forms](./hello-xamarin-forms)
 - [Xamarin.iOS](./hello-xamarin-ios)
