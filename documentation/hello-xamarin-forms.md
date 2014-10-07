@@ -17,12 +17,12 @@ Add the `OxyPlot.XamarinForms` NuGet package in both the portable and platform s
 
 You need to initialize the OxyPlot renderers by adding the following call just before `Xamarin.Forms.Forms.Init()`:
 
-- iOS: `OxyPlot.XamarinFormsIOS.Forms.init();`
-- Android: `OxyPlot.XamarinFormsAndroid.Forms.init();`
+- iOS: `OxyPlot.XamarinFormsIOS.Forms.Init();`
+- Android: `OxyPlot.XamarinFormsAndroid.Forms.Init();`
 - WinPhone: `OxyPlot.XamarinFormsWinPhone.Forms.Init();`
 Add a class that creates a `PlotModel` and a `FunctionSeries`.
 
-### Add the `PlotView` to your form (in code)
+### Add the `PlotView` to a page (in code)
 
 In the portable/shared app project, add the plot view
 
@@ -41,17 +41,21 @@ public static Page GetMainPage()
 }
 ```
 
-### Add the `PlotView` to your form (XAML)
+### Add the `PlotView` to a page (XAML)
 
-TODO
+Add a "Forms Xaml Page" to your project. In the page element, add a namespace declaration:
 
-### Binding to a `PlotModel`
+``` xml
+xmlns:oxy="clr-namespace:OxyPlot.XamarinForms;assembly=OxyPlot.XamarinForms"
+```
 
-TODO
+And add your plot view:
 
-### Adding a `PlotController`
+``` xml
+<oxy:PlotView Model="{Binding Model}" VerticalOptions="Center" HorizontalOptions="Center" />
+```
 
-TODO
+This view will now be bound to a `PlotModel` in the binding context of the page.
 
 ### References
 
