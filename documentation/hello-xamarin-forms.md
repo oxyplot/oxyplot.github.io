@@ -20,7 +20,6 @@ You need to initialize the OxyPlot renderers by adding the following call just b
 - iOS: `OxyPlot.XamarinFormsIOS.Forms.Init();`
 - Android: `OxyPlot.XamarinFormsAndroid.Forms.Init();`
 - WinPhone: `OxyPlot.XamarinFormsWinPhone.Forms.Init();`
-Add a class that creates a `PlotModel` and a `FunctionSeries`.
 
 ### Add the `PlotView` to a page (in code)
 
@@ -49,7 +48,7 @@ Add a "Forms Xaml Page" to your project. In the page element, add a namespace de
 xmlns:oxy="clr-namespace:OxyPlot.XamarinForms;assembly=OxyPlot.XamarinForms"
 ```
 
-And add your plot view:
+Then add the plot view:
 
 ``` xml
 <oxy:PlotView Model="{Binding Model}" VerticalOptions="Center" HorizontalOptions="Center" />
