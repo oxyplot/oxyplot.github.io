@@ -112,7 +112,7 @@ The `MarkerResolution` property can be used to decimate the markers. The value i
 
 The `Decimator` delegate can be used to reduce the actual rendered points.
 
-### Example
+### Examples
 
 ``` csharp
 var model = new PlotModel { Title = "LineSeries" };
@@ -124,7 +124,7 @@ lineSeries.Points.Add(new DataPoint(40, 8));
 model.Series.Add(lineSeries);
 ```
 
-![LineSeries](/public/images/series/LineSeries-example.png)
+![LineSeries](/public/images/series/LineSeries-Example1.png)
 
 Set the `Smooth` property to render a canonical spline:
 
@@ -132,4 +132,4 @@ Set the `Smooth` property to render a canonical spline:
 lineSeries.Smooth = true;
 ```
 
-![LineSeries](/public/images/series/LineSeries-example-smooth.png)
+![LineSeries](/public/images/series/LineSeries-Example2.png)
