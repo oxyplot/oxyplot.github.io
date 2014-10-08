@@ -5,7 +5,7 @@ title: LineSeries
 
 A `LineSeries` is used to render data as a polyline in the plot. It is also possible to render markers at each point of the polyline.
 
-![LineSeries](/public/images/series/LineSeries.png)
+![LineSeries](/public/images/documentation/series/LineSeries.png)
 
 ### Visibility
 
@@ -120,11 +120,11 @@ var lineSeries = new LineSeries();
 lineSeries.Points.Add(new DataPoint(0, 0));
 lineSeries.Points.Add(new DataPoint(10, 4));
 lineSeries.Points.Add(new DataPoint(30, 2));
-lineSeries.Points.Add(new DataPoint(40, 8));
+lineSeries.Points.Add(new DataPoint(40, 12));
 model.Series.Add(lineSeries);
 ```
 
-![LineSeries](/public/images/series/LineSeries-Example1.png)
+![LineSeries](/public/images/documentation/series/LineSeries-Example1.png)
 
 Set the `Smooth` property to render a canonical spline:
 
@@ -132,4 +132,4 @@ Set the `Smooth` property to render a canonical spline:
 lineSeries.Smooth = true;
 ```
 
-![LineSeries](/public/images/series/LineSeries-Example2.png)
+![LineSeries](/public/images/documentation/series/LineSeries-Example2.png)
