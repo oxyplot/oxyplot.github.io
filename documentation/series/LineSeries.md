@@ -126,10 +126,18 @@ model.Series.Add(lineSeries);
 
 ![LineSeries](/public/images/documentation/series/LineSeries-Example1.png)
 
-Set the `Smooth` property to render a canonical spline:
+The line can be changed to a smooth curve by interpolating with a canonical spline:
 
 ``` csharp
 lineSeries.Smooth = true;
 ```
 
 ![LineSeries](/public/images/documentation/series/LineSeries-Example2.png)
+
+Then add markers by setting
+
+``` csharp
+lineSeries.MarkerType = MarkerType.Circle;
+```
+
+![LineSeries](/public/images/documentation/series/LineSeries-Example3.png)
