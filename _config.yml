@@ -27,7 +27,8 @@ forum: http://discussion.oxyplot.org/
 nuget: http://www.nuget.org/packages?q=oxyplot
 examples: http://resources.oxyplot.org/examplebrowser/
 twitter: http://twitter.com/search?q=oxyplot
-so : http://stackoverflow.com/questions/tagged/oxyplot?sort=newest
+so: http://stackoverflow.com/questions/tagged/oxyplot?sort=newest
+chat: https://gitter.im/oxyplot/oxyplot
 
 github:
   repo: http://github.com/oxyplot/oxyplot/
