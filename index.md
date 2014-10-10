@@ -3,99 +3,100 @@ layout: home
 published: true
 ---
 
-![Example plot](/public/images/normal-distributions.png)
+![Example plot]
 
 OxyPlot is a cross-platform plotting library for .NET. 
 
 The code is licensed under the MIT license. This means that the library can be used in commercial applications, and modified as much as you want.
 
-The core library is a [Portable Class Library][pcl] which is shared between different user interface platforms. Custom controls are implemented for WPF, Windows 8, Windows Phone, Windows Forms, Silverlight, GTK#, Xamarin.iOS and Xamarin.Android.
+The core library is a [Portable Class Library] which is shared between different user interface platforms. Custom controls are implemented for WPF, Windows 8, Windows Phone, Windows Forms, Silverlight, GTK#, Xamarin.iOS and Xamarin.Android.
 
-- OxyPlot can be tested online with the [Silverlight Example Browser][example-browser]
-- The documentation is located at [oxyplot.org/documentation][docs]
-- The latest binaries can be found in the [NuGet packages][nuget-packages]
-
+- OxyPlot can be tested online with the Silverlight [example browser]
+- The documentation is located at [oxyplot.org/documentation]
+- The latest binaries can be found in the [NuGet packages]
 
 ### Supported platforms
 
-See the [supported platforms][supported-platforms] section in the documentation.
+See the [supported platforms] section in the documentation.
 
 ### Features
 
 OxyPlot contains many different types of axes and series. And if you need some functionality that is not included in the library, you can always create a derived class and override the rendering implementation.
 
-The plots can be exported to file formats like [png][export-png], [pdf][export-pdf] and [svg][export-svg].
+The plots can be exported to file formats like [png], [pdf] and [svg].
 
 ### Getting started
 
-1. Use the [NuGet][nuget] package manager to add the [OxyPlot package][nuget-packages] for your platform. 
+1. Use the [NuGet] package manager to add the [OxyPlot package][NuGet packages] for your platform. 
 2. Add a `PlotView` control to your user interface. 
 3. Create a `PlotModel`
 4. Bind or assign the `PlotModel` to the `Model` property of the control.
 
-See the [getting started][getting-started] section for more information for each platform. 
+See the [getting started] section for more information for each platform. 
 
 ### Examples
 
-Example code can be found in the [Source/Examples][repo-examples] folder in the repository. There is also an online [example browser][example-browser] based on Silverlight.
+Example code can be found in the [Source/Examples] folder in the [repository]. There is also an online [example browser] based on Silverlight.
 
 ### Documentation
 
-The documentation can be found at [oxyplot.org/documentation][docs]. Note that it is under construction and this task has high priority. Please contribute!
+The documentation can be found at [oxyplot.org/documentation]. Note that it is under construction and this task has high priority. Please contribute!
 
 ### Questions
 
-Use the discussion forum at [discussion.oxyplot.org][forum] if you have questions regarding the library. You can also use [Stack Overflow][so] or the [Xamarin forum][xamarin-forum].
+Use the discussion forum at [discussion.oxyplot.org] if you have questions regarding the library. You can also try the [chat room], [Stack Overflow] or the [Xamarin forum].
 
 ### Announcements
 
-News about the library can be found under [announcements][announcements]. There is also an [atom feed][feed] for the posts.
+News about the library can be found under [announcements]. There is also an [atom feed] for the posts.
 
 ### Contribute
 
-This project is continuously evolving and any kind of help is greatly appreciated. See the [contributions][contributions] page for more information.
+This project is continuously evolving and any kind of help is greatly appreciated. See the [contributions] page for more information.
 
 ### Thanks
 
 The project is supported by
 
-- [Jetbrains][jetbrains]
-  - [Resharper][resharper]
-  - [dotCover][dotcover]
-- [NDepend][ndepend]
-  - [NDepend v5][ndepend]
-- [Red Gate Software][redgate]
-  - [ANTS][ants]
-- [Xamarin][xamarin]
-  - [Xamarin Studio][xamarin]
-- [OzCode][ozcode]
-  - [OzCode VS extension][ozcode-extension]
-- [UserEcho][userecho]
+- [Jetbrains]
+  - [ReSharper]
+  - [dotCover]
+- [NDepend]
+  - [NDepend v5][NDepend]
+- [Red Gate Software]
+  - [ANTS]
+- [Xamarin]
+  - [Xamarin Studio][Xamarin]
+- [OzCode]
+  - [OzCode VS extension]
+- [UserEcho]
 
-[nuget]: http://www.nuget.org/
-[nuget-packages]: http://www.nuget.org/packages?q=oxyplot
-[pcl]: http://msdn.microsoft.com/en-us/library/vstudio/gg597391(v=vs.100).aspx
-[export-pdf]: /documentation/export-pdf
-[export-png]: /documentation/export-png
-[export-svg]: /documentation/export-svg
+[Example plot]: /public/images/normal-distributions.png
+[NuGet]: http://www.nuget.org/
+[NuGet packages]: http://www.nuget.org/packages?q=oxyplot
+[Portable Class Library]: http://msdn.microsoft.com/en-us/library/vstudio/gg597391(v=vs.100).aspx
+[pdf]: /documentation/export-pdf
+[png]: /documentation/export-png
+[svg]: /documentation/export-svg
 
-[docs]: /documentation
+[oxyplot.org/documentation]: /documentation
 [support]: /support
 [contributions]: /documentation/contributions
-[getting-started]: /documentation/getting-started
-[supported-platforms]: /documentation/supported-platforms
+[getting started]: /documentation/getting-started
+[supported platforms]: /documentation/supported-platforms
 [announcements]: /announcements
-[feed]: http://oxyplot.org/atom.xml
+[atom feed]: http://oxyplot.org/atom.xml
 
-[repo]: https://github.com/oxyplot/oxyplot
-[repo-examples]: https://github.com/oxyplot/oxyplot/tree/master/Source/Examples
+[repository]: https://github.com/oxyplot/oxyplot
+[Source/Examples]: https://github.com/oxyplot/oxyplot/tree/master/Source/Examples
 [contributors]: https://github.com/oxyplot/oxyplot/graphs/contributors
 
-[example-browser]: http://resources.oxyplot.org/examplebrowser/
+[example browser]: http://resources.oxyplot.org/examplebrowser/
 
-[forum]: http://oxyplot.userecho.com/
-[so]: http://stackoverflow.com/questions/tagged/oxyplot?sort=newest
-[xamarin-forum]: http://forums.xamarin.com/search?Search=oxyplot
+[discussion.oxyplot.org]: http://oxyplot.userecho.com/
+[chat room]: https://gitter.im/oxyplot/oxyplot
+[Stack Overflow]: http://stackoverflow.com/questions/tagged/oxyplot?sort=newest
+[Xamarin forum]: http://forums.xamarin.com/search?Search=oxyplot
 [twitter]: https://twitter.com/search?q=oxyplot
 [twitter-hashtag]: https://twitter.com/search?q=%23oxyplot&src=hash
 
@@ -103,15 +104,15 @@ The project is supported by
 [xamarin-mac]: http://xamarin.com/mac
 [mono-mac]: http://www.mono-project.com/MonoMac
 
-[jetbrains]: http://www.jetbrains.com/
-[resharper]: http://www.jetbrains.com/resharper/
-[dotcover]: http://www.jetbrains.com/dotcover/index.html?topDC
-[ndepend]: http://www.ndepend.com/
-[redgate]: http://www.red-gate.com/
-[ants]: http://www.red-gate.com/products/dotnet-development/ants-performance-profiler/
-[xamarin]: http://www.xamarin.com/
-[ozcode]: http://www.oz-code.com/
-[ozcode-extension]: http://visualstudiogallery.msdn.microsoft.com/36925113-cdce-4953-a5d6-fb3d2912dad7
-[userecho]: http://www.userecho.com/
+[Jetbrains]: http://www.jetbrains.com/
+[ReSharper]: http://www.jetbrains.com/resharper/
+[dotCover]: http://www.jetbrains.com/dotcover/index.html?topDC
+[NDepend]: http://www.ndepend.com/
+[Red Gate Software]: http://www.red-gate.com/
+[ANTS]: http://www.red-gate.com/products/dotnet-development/ants-performance-profiler/
+[Xamarin]: http://www.xamarin.com/
+[OzCode]: http://www.oz-code.com/
+[OzCode VS extension]: http://visualstudiogallery.msdn.microsoft.com/36925113-cdce-4953-a5d6-fb3d2912dad7
+[UserEcho]: http://www.userecho.com/
 
-[jetbrains-img]: http://www.jetbrains.com/img/banners/Codebetter.png
+[jetbrains-banner]: http://www.jetbrains.com/img/banners/Codebetter.png

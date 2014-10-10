@@ -3,9 +3,13 @@ layout: post
 title: Chat room at gitter.im
 ---
 
-A [chat room][chat] has been added at [gitter.im][gitter]. There is not much activity yet, but hopefully this can be a nice supplement to the [discussion forum][forum] and [twitter][twitter].
+A [chat room] has been added at [gitter.im].  Hopefully
+this can be a nice supplement to the [discussion forum][forum] and
+[twitter].
 
-[chat]: https://gitter.im/oxyplot/oxyplot
-[gitter]: http://gitter.im/
+[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/oxyplot/oxyplot?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+
+[chat room]: https://gitter.im/oxyplot/oxyplot
+[gitter.im]: http://gitter.im/
 [forum]: http://discussion.oxyplot.org/
 [twitter]: https://twitter.com/hashtag/oxyplot
