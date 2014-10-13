@@ -9,7 +9,9 @@ This example shows how to create a [Xamarin.Forms][forms] app where bot the user
 
 Start Visual Studio and select in the blank Xamarin.Forms app template.
 
-### Add references
+### Update and add references
+
+Update the `Xamarin.Forms` NuGet packages to the latest version.
 
 Add the `OxyPlot.XamarinForms` NuGet package in both the portable and platform specific projects.
 
