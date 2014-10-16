@@ -3,11 +3,11 @@ layout: page
 title: Xamarin.Forms example
 ---
 
-This example shows how to create a [Xamarin.Forms][forms] app where bot the user interface and the plot is defined in portable code.
+This example shows how to create a [Xamarin.Forms][forms] app where both the user interface and the plot is defined in portable code.
 
 ### Create the project
 
-Start Visual Studio and select in the blank Xamarin.Forms app template.
+Start Visual Studio and select the blank Xamarin.Forms app template.
 
 ### Update and add references
 
