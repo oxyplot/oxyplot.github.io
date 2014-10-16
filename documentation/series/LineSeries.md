@@ -53,7 +53,7 @@ To show the x and y values with one digit, use the format string `"{3:0.0},{5:0.
 
 If an item was hit, it is also possible to use the extended format string syntax, e.g. `{PropertyX:0.##}`, where the value of `PropertyX` will be found by reflection of the item.
 
-The default format string for `LineSeries` is `"{0}\n{1}: {2}\n{3}: {4}"`
+The default format string for `LineSeries` is `"{0}\n{1}: {2:0.###}\n{3}: {4:0.###}"`
 
 See [MSDN](http://msdn.microsoft.com/en-us/library/system.string.format(v=vs.110).aspx) for more information about format strings.
 
