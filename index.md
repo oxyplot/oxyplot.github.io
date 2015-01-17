@@ -25,6 +25,8 @@ OxyPlot contains many different types of axes and series. If you need some funct
 
 The plots can be exported to file formats like [png], [pdf] and [svg].
 
+See the [features] section for more information. 
+
 ### Getting started
 
 1. Use the [NuGet] package manager to add the [OxyPlot package][NuGet packages] for your platform. 
@@ -85,6 +87,7 @@ The project is supported by
 
 [oxyplot.org/documentation]: /documentation
 [support]: /support
+[features]: /documentation/features
 [contributions]: /documentation/contributions
 [getting started]: /documentation/getting-started
 [supported platforms]: /documentation/supported-platforms
