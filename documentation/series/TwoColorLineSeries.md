@@ -1,6 +1,6 @@
 ---
 layout: page
-title: ScatterSeries
+title: TwoColorLineSeries
 ---
 
 A `TwoColorLineSeries` shows a line where the the color is different above and below a specified limit.
@@ -17,7 +17,6 @@ The `TrackerFormatString` property is used to format the string shown in the [tr
 - `{2}` the x-value
 - `{3}` the title of the y-axis
 - `{4}` the y-value
-- `{PropertyX}` the value of `PropertyX` in the item (extended format string syntax)
 
 To show the x and y values with one digit, use the format string `"{2:0.0},{4:0.0}"`.
 

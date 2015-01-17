@@ -9,7 +9,7 @@ OxyPlot is a cross-platform plotting library for .NET.
 
 The code is licensed under the MIT license. This is a very permissive and corporate friendly license. See [opensource.org](http://opensource.org/licenses/MIT) and [tl;dr](https://tldrlegal.com/license/mit-license) for more details.
 
-The core library is a [Portable Class Library] which is shared between different user interface platforms. Custom controls are implemented for WPF, Windows 8, Windows Phone, Windows Phone Silverlight, Windows Forms, Silverlight, GTK#, Xwt, Xamarin.iOS, Xamarin.Android, Xamarin.Forms and Xamarin.Mac.
+The core library is a [Portable Class Library] that can be used on different platforms. Custom controls are implemented for WPF, Windows 8, Windows Phone, Windows Phone Silverlight, Windows Forms, Silverlight, GTK#, Xwt, Xamarin.iOS, Xamarin.Android, Xamarin.Forms and Xamarin.Mac.
 
 - OxyPlot can be tested online with the Silverlight [example browser]
 - The documentation is located at [oxyplot.org/documentation]
