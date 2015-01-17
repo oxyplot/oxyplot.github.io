@@ -5,19 +5,6 @@ title: Features
 
 // TODO //
 
-### Platforms
-
-Interactive controls are implemented on the following platforms
-
-- WPF
-- Windows Forms
-- Silverlight
-- Windows Store App
-- GTK#
-- Xamarin.Android
-- Xamarin.iOS
-- Xamarin.Mac
-
 ### Plot types
 
 - XY (horizontal and vertical axes)
@@ -27,55 +14,31 @@ Interactive controls are implemented on the following platforms
 
 ### Axes
 
-| Linear | |
-| Logarithmic | |
-| CategoryAxis | for bar and column series |
-| Date/time (alpha) | |
-| Time span (alpha) | |
-| LinearColorAxis | for heat maps and scatter series|
-| AngleAxis | for polar plots|
-| MagnitudeAxis | for polar plots|
+// TODO
+
+It is possible to extend with custom axis types.
 
 ### Series
 
-The following types of series are included in the core library
-
-// TODO - add missing types //
-
-|| Use || to create |
-| LineSeries | line plots (graphs) |
-| ScatterSeries | scatter plots (scatterplots, scattergraphs)|
-| AreaSeries | area plots|
-| StemSeries | stem charts|
-| StairStepSeries | stairstep charts|
-| HighLowSeries | open-high-low-close (OHLC) charts|
-| CandlestickSeries | candlestick charts|
-| BarSeries | bar charts|
-| ColumnSeries | column charts|
-| PieSeries | pie charts|
-| HeatMapSeries | heat maps|
-| ContourSeries | contour plots|
+// TODO
 
 Different types of series can be added to the same plot.
 
-It is easy to extend with custom series types.
+It is possible to extend with custom series types.
 
 ### Annotations
 
-// TODO - add missing types //
+// TODO
 
-|| Annotation || Description |
-| LineAnnotation | |
-| ArrowAnnotation| |
+It is possible to extend with custom annotation types.
 
 ### Output file formats
 
 The plots can be exported to the following raster and vector file formats:
 
-- [PNG](./export-png)
-- [SVG](./export-svg)
-- [PDF](./export-pdf)
-- XPS
+- [png](./export-png)
+- [svg](./export-svg)
+- [pdf](./export-pdf)
 
 ### Limitations
 

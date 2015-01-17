@@ -8,14 +8,11 @@ The following platforms are currently supported
 - WPF
 - Windows Forms
 - Silverlight
-- Windows Store (Windows Runtime)
-- Windows Phone
+- Windows Universal apps (Windows and Windows Phone)
+- Windows Phone Silverlight apps
 - GTK#
+- Xwt
 - Xamarin.iOS
 - Xamarin.Android
-
-We would also like to add support for
-
-- Windows.Universal apps
 - Xamarin.Forms
 - Xamarin.Mac

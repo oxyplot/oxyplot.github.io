@@ -7,9 +7,9 @@ published: true
 
 OxyPlot is a cross-platform plotting library for .NET. 
 
-The code is licensed under the MIT license. This means that the library can be used in commercial applications, and modified as much as you want.
+The code is licensed under the MIT license. This is a very permissive and corporate friendly license. See [opensource.org](http://opensource.org/licenses/MIT) and [tl;dr](https://tldrlegal.com/license/mit-license) for more details.
 
-The core library is a [Portable Class Library] which is shared between different user interface platforms. Custom controls are implemented for WPF, Windows 8, Windows Phone, Windows Forms, Silverlight, GTK#, Xamarin.iOS and Xamarin.Android.
+The core library is a [Portable Class Library] which is shared between different user interface platforms. Custom controls are implemented for WPF, Windows 8, Windows Phone, Windows Phone Silverlight, Windows Forms, Silverlight, GTK#, Xwt, Xamarin.iOS, Xamarin.Android, Xamarin.Forms and Xamarin.Mac.
 
 - OxyPlot can be tested online with the Silverlight [example browser]
 - The documentation is located at [oxyplot.org/documentation]
@@ -21,7 +21,7 @@ See the [supported platforms] section in the documentation.
 
 ### Features
 
-OxyPlot contains many different types of axes and series. And if you need some functionality that is not included in the library, you can always create a derived class and override the rendering implementation.
+OxyPlot contains many different types of axes and series. If you need some functionality that is not included in the library, you can also create a derived class and override the rendering implementation.
 
 The plots can be exported to file formats like [png], [pdf] and [svg].
 
@@ -32,7 +32,7 @@ The plots can be exported to file formats like [png], [pdf] and [svg].
 3. Create a `PlotModel`
 4. Bind or assign the `PlotModel` to the `Model` property of the control.
 
-See the [getting started] section for more information for each platform. 
+See the [getting started] section for more information about each platform. 
 
 ### Examples
 
@@ -40,11 +40,15 @@ Example code can be found in the [Source/Examples] folder in the [repository]. T
 
 ### Documentation
 
-The documentation can be found at [oxyplot.org/documentation]. Note that it is under construction and this task has high priority. Please contribute!
+The documentation can be found at [oxyplot.org/documentation]. Note that it is under construction. Please contribute!
 
 ### Questions
 
 Use the discussion forum at [discussion.oxyplot.org] if you have questions regarding the library. You can also try the [chat room], [Stack Overflow] or the [Xamarin forum].
+
+### Issues
+
+Feature requests and bugs should be added to the [issues] section at GitHub. Please do not use the issues section for questions.
 
 ### Announcements
 
@@ -52,7 +56,7 @@ News about the library can be found under [announcements]. There is also an [ato
 
 ### Contribute
 
-This project is continuously evolving and any kind of help is greatly appreciated. See the [contributions] page for more information.
+This project is continuously evolving and any kind of help is greatly appreciated. See the [contributions] page for more information about how to get involved.
 
 ### Thanks
 
@@ -90,6 +94,7 @@ The project is supported by
 [repository]: https://github.com/oxyplot/oxyplot
 [Source/Examples]: https://github.com/oxyplot/oxyplot/tree/master/Source/Examples
 [contributors]: https://github.com/oxyplot/oxyplot/graphs/contributors
+[issues]: https://github.com/oxyplot/oxyplot/issues/
 
 [example browser]: http://resources.oxyplot.org/examplebrowser/
 
