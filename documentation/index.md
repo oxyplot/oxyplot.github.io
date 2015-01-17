@@ -35,13 +35,50 @@ title: Documentation
    - [PlotModel](./plot-models)
    - [Units](./units)
 - Axes
+   - LinearAxis
+   - LogarithmicAxis
+   - CategoryAxis
+   - DateTimeAxis
+   - TimeSpanAxis
+   - AngleAxis
+   - MagnitudeAxis
+   - CategoryColorAxis
+   - RangeColorAxis
 - Series
+   - [AreaSeries](series/AreaSeries)
+   - [BoxPlotSeries](series/BoxPlotSeries)
+   - [CandleStickSeries](series/CandleStickSeries)
+   - [ColumnSeries](series/ColumnSeries)
+   - [ContourSeries](series/ContourSeries)
+   - [ErrorColumnSeries](series/ErrorColumnSeries)
+   - [FunctionSeries](series/FunctionSeries)
+   - [HeatMapSeries](series/HeatMapSeries)
+   - [HighLowSeries](series/HighLowSeries)
+   - [IntervalBarSeries](series/IntervalBarSeries)
    - [LineSeries](series/LineSeries)
+   - [PieSeries](series/PieSeries)
+   - [RectangleBarSeries](series/RectangleBarSeries)
    - [ScatterSeries](series/ScatterSeries)
+   - [StairStepSeries](series/StairStepSeries)
+   - [StemSeries](series/StemSeries)
+   - [TornadoBarSeries](series/TornadoBarSeries)
+   - [TwoColorAreaSeries](series/TwoColorAreaSeries)
+   - [TwoColorLineSeries](series/TwoColorLineSeries)
    - [Custom series](custom-series)
 - Annotations
+   - ArrowAnnotation
+   - EllipseAnnotation
+   - FunctionAnnotation
+   - ImageAnnotation
+   - LineAnnotation
+   - PathAnnotation
+   - PointAnnotation
+   - PolygonAnnotation
+   - PolyLineAnnotation
+   - RectangleAnnotation
+   - TextAnnotation
 - Plot controllers
-  - [PlotController](./plot-controllers)
+   - [PlotController](./plot-controllers)
 - Plot views
    - [PlotView](./plot-views)
    - [Tracker](./tracker)

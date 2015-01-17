@@ -11,30 +11,30 @@ Start Visual Studio and select the blank Xamarin.Forms app template.
 
 ### Update and add references
 
-Update the `Xamarin.Forms` NuGet packages to the latest version.
+Update the `Xamarin.Forms` NuGet packages to the latest version (at least version 1.3.1).
 
-Add the `OxyPlot.XamarinForms` NuGet package in both the portable and platform specific projects.
+Add the `OxyPlot.Xamarin.Forms` NuGet package in both the portable and platform specific projects.
 
 ### Initialize renderers
 
 You need to initialize the OxyPlot renderers by adding the following call just before `Xamarin.Forms.Forms.Init()`:
 
-- iOS: `OxyPlot.XamarinFormsIOS.Forms.Init();`
-- Android: `OxyPlot.XamarinFormsAndroid.Forms.Init();`
-- WinPhone: `OxyPlot.XamarinFormsWinPhone.Forms.Init();`
+- iOS (Unified API): `OxyPlot.Xamarin.Forms.Platform.iOS.Forms.Init();`
+- Android: `OxyPlot.Xamarin.Forms.Platform.Android.Forms.Init();`
+- WinPhone: `OxyPlot.Xamarin.Forms.Platform.WinPhone.Forms.Init();`
 
 ### Add the `PlotView` to a page (in code)
 
-In the portable/shared app project, add the plot view
+In the portable/shared app project, add the plot view to a page:
 
 ``` csharp
-public static Page GetMainPage()
+public App()
 {
-    return new ContentPage
+    this.MainPage = new ContentPage
     {
         Content = new PlotView
         {
-            Model = new PlotModel { Title = "Hello Xamarin.Forms" },
+            Model = new PlotModel { Title = "Hello, Forms!" },
             VerticalOptions = LayoutOptions.Fill,
             HorizontalOptions = LayoutOptions.Fill,
         },
@@ -47,7 +47,7 @@ public static Page GetMainPage()
 Add a "Forms Xaml Page" to your project. In the page element, add a namespace declaration:
 
 ``` xml
-xmlns:oxy="clr-namespace:OxyPlot.XamarinForms;assembly=OxyPlot.XamarinForms"
+xmlns:oxy="clr-namespace:OxyPlot.Xamarin.Forms;assembly=OxyPlot.Xamarin.Forms"
 ```
 
 Then add the plot view:

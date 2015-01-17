@@ -1,11 +1,11 @@
 ---
 layout: page
-title: ScatterSeries
+title: HeatMapSeries
 ---
 
-A `ScatterSeries` shows a set of points. The points can also have a size and color value.
+A `HeatMapSeries` shows a 2D array of values as a heat map.
 
-![ScatterSeries](/public/images/documentation/series/ScatterSeries.png)
+![HeatMapSeries](/public/images/documentation/series/HeatMapSeries.png)
 
 
 ### Tracker
@@ -25,7 +25,7 @@ To show the x and y values with one digit, use the format string `"{2:0.0},{4:0.
 
 If an item was hit, it is also possible to use the extended format string syntax, e.g. `{PropertyX:0.##}`, where the value of `PropertyX` will be found by reflection of the item.
 
-The default format string for `ScatterSeries` is `"{0}\n{1}: {2:0.###}\n{3}: {4:0.###}"`
+The default format string for `HeatMapSeries` is `"{0}\n{1}: {2}\n{3}: {4}\n{5}: {6}"`
 
 See [MSDN](http://msdn.microsoft.com/en-us/library/system.string.format(v=vs.110).aspx) for more information about format strings.
 
@@ -35,18 +35,5 @@ The `TrackerKey` property may be used to specify a [custom tracker](../tracker).
 ### Example
 
 ``` csharp
-var model = new PlotModel { Title = "ScatterSeries" };
-var scatterSeries = new ScatterSeries { MarkerType = MarkerType.Circle };
-var r = new Random(314);
-for (int i = 0; i < 100; i++)
-{
-    var x = r.NextDouble();
-    var y = r.NextDouble();
-    var size = r.Next(5, 15);
-    var colorValue = r.Next(100, 1000);
-    scatterSeries.Points.Add(new ScatterPoint(x, y, size, colorValue));
-}
-
-model.Series.Add(scatterSeries);
-model.Axes.Add(new LinearColorAxis { Position = AxisPosition.Right, Palette = OxyPalettes.Jet(200) });
+var model = new PlotModel { Title = "HeatMapSeries" };
 ```

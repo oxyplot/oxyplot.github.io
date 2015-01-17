@@ -49,7 +49,7 @@ The `TrackerFormatString` property is used to format the string shown in the [tr
 - `{4}` the y-value
 - `{PropertyX}` the value of `PropertyX` in the nearest item (extended format string syntax)
 
-To show the x and y values with one digit, use the format string `"{3:0.0},{5:0.0}"`.
+To show the x and y values with one digit, use the format string `"{2:0.0},{4:0.0}"`.
 
 If an item was hit, it is also possible to use the extended format string syntax, e.g. `{PropertyX:0.##}`, where the value of `PropertyX` will be found by reflection of the item.
 
