@@ -17,21 +17,17 @@ The MIT License is the least restrictive license out there. It basically says th
 
 ### AUTHORS
 
-Information about the copyright holders is found in the `~/AUTHORS` file. 
-
-```
-@include ..\AUTHORS
-```
+Information about the copyright holders is found in the [`~/AUTHORS`][authors] file. 
 
 ### CONTRIBUTORS
 
-Information about the contributors is found in the `~/CONTRIBUTORS` file. 
-
-```
-@include ..\CONTRIBUTORS
-```
+Information about the contributors is found in the [`~/CONTRIBUTORS`][contributors] file. 
 
 [license]: https://raw.githubusercontent.com/oxyplot/oxyplot/master/LICENSE
+[authors]: https://raw.githubusercontent.com/oxyplot/oxyplot/develop/AUTHORS
+[contributors]: https://raw.githubusercontent.com/oxyplot/oxyplot/develop/CONTRIBUTORS
+
 [guide]: http://www.smashingmagazine.com/2010/03/24/a-short-guide-to-open-source-and-similar-licenses/
 [mit]: http://en.wikipedia.org/wiki/MIT_License
 [gpl]: http://en.wikipedia.org/wiki/GPL
+
