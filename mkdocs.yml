@@ -1,0 +1,14 @@
+site_name: OxyPlot documentation
+repo_url: https://github.com/oxyplot/oxyplot
+site_description: A cross-platform plotting library for .NET
+site_favicon: https://raw.githubusercontent.com/oxyplot/oxyplot.github.io/master/public/favicon.ico
+docs_dir: documentation
+pages:
+- ['index.md', 'Contents']
+- ['introduction.md', 'Introduction']
+- ['hello-wpf.md', 'Getting Started', 'WPF']
+- ['hello-wpf-xaml.md', 'Getting Started', 'WPF (XAML)']
+- ['hello-wpf-vb.md', 'Getting Started', 'WPF (VB.NET)']
+- ['hello-xamarin-mac.md', 'Getting Started', 'Xamarin.Mac']
+- ['export-png.md', 'Export', 'Export to PNG']
+- ['contributions.md', 'Contribute', 'Contributions']
