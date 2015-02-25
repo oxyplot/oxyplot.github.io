@@ -62,7 +62,7 @@ namespace WpfApplication2
 
 ### Create the view
 
-Define the namespace in the `Window` element, set the `DataContext` and add a `PlotView` control:
+Define the namespace in the `Window` element, set the `DataContext` and add a `Plot` control:
 
 ``` xml
 <Window x:Class="WpfApplication2.MainWindow"
@@ -74,11 +74,11 @@ Define the namespace in the `Window` element, set the `DataContext` and add a `P
         <local:MainViewModel/>
     </Window.DataContext>
     <Grid>
-        <oxy:PlotView Title="{Binding Title}">
-            <oxy:PlotView.Series>
+        <oxy:Plot Title="{Binding Title}">
+            <oxy:Plot.Series>
                 <oxy:LineSeries ItemsSource="{Binding Points}"/>
-            </oxy:PlotView.Series>
-        </oxy:PlotView>
+            </oxy:Plot.Series>
+        </oxy:Plot>
     </Grid>
 </Window>
 ```
