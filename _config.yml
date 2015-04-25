@@ -15,14 +15,15 @@ description: 'A cross-platform plotting library for .NET'
 url: http://oxyplot.org
 
 author:
-  name: 'Oystein Bjorke'
-  url: http://twitter.com/OysteinBjorke
+  name: 'OxyPlot'
+  url: http://oxyplot.org
 
 paginate: 5
 paginate_path: '/announcements/:num'
 
 # Custom vars
-version: 2014.1
+version: 2015.1
+docs: http://docs.oxyplot.org/
 forum: http://discussion.oxyplot.org/
 nuget: http://www.nuget.org/packages?q=oxyplot
 examples: http://resources.oxyplot.org/examplebrowser/

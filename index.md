@@ -12,7 +12,7 @@ The code is licensed under the MIT license. This is a very permissive and corpor
 The core library is a [Portable Class Library] that can be used on different platforms. Custom controls are implemented for WPF, Windows 8, Windows Phone, Windows Phone Silverlight, Windows Forms, Silverlight, GTK#, Xwt, Xamarin.iOS, Xamarin.Android, Xamarin.Forms and Xamarin.Mac.
 
 - OxyPlot can be tested online with the Silverlight [example browser]
-- The documentation is located at [oxyplot.org/documentation]
+- The documentation is located at [docs.oxyplot.org][docs]
 - The latest binaries can be found in the [NuGet packages]
 
 ### Supported platforms
@@ -42,7 +42,7 @@ Example code can be found in the [Source/Examples] folder in the [repository]. T
 
 ### Documentation
 
-The documentation can be found at [oxyplot.org/documentation]. Note that it is under construction. Please contribute!
+The documentation can be found at [docs.oxyplot.org][docs]. Note that it is under construction. Please contribute!
 
 ### Questions
 
@@ -93,6 +93,7 @@ The project is supported by
 [supported platforms]: /documentation/supported-platforms
 [announcements]: /announcements
 [atom feed]: http://oxyplot.org/atom.xml
+[docs]: http://docs.oxyplot.org/
 
 [repository]: https://github.com/oxyplot/oxyplot
 [Source/Examples]: https://github.com/oxyplot/oxyplot/tree/master/Source/Examples
