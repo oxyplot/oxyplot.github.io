@@ -68,7 +68,7 @@ The project is supported by
   - [ReSharper]
   - [dotCover]
 - [NDepend]
-  - [NDepend v5][NDepend]
+  - [NDepend v6][NDepend]
 - [Red Gate Software]
   - [ANTS]
 - [Xamarin]
