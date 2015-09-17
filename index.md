@@ -42,7 +42,7 @@ Example code can be found in the [Source/Examples] folder in the [repository]. T
 
 ### Documentation
 
-The documentation can be found at [docs.oxyplot.org][docs]. Note that it is under construction. Please contribute!
+The documentation can be found at [docs.oxyplot.org]. Note that it is under construction. Please contribute!
 
 ### Questions
 
@@ -81,19 +81,17 @@ The project is supported by
 [NuGet]: http://www.nuget.org/
 [NuGet packages]: http://www.nuget.org/packages?q=oxyplot
 [Portable Class Library]: http://msdn.microsoft.com/en-us/library/vstudio/gg597391(v=vs.100).aspx
-[pdf]: /documentation/export-pdf
-[png]: /documentation/export-png
-[svg]: /documentation/export-svg
+[pdf]: http://docs.oxyplot.org/en/latest/export/export-pdf.html
+[png]: http://docs.oxyplot.org/en/latest/export/export-png.html
+[svg]: http://docs.oxyplot.org/en/latest/export/export-svg.html
 
-[oxyplot.org/documentation]: /documentation
-[support]: /support
-[features]: /documentation/features
-[contributions]: /documentation/contributions
-[getting started]: /documentation/getting-started
-[supported platforms]: /documentation/supported-platforms
+[features]: http://docs.oxyplot.org/en/latest/introduction/features.html
+[contributions]: http://docs.oxyplot.org/en/latest/contribute/
+[getting started]: http://docs.oxyplot.org/en/latest/getting-started/
+[supported platforms]: http://docs.oxyplot.org/en/latest/views/
 [announcements]: /announcements
 [atom feed]: http://oxyplot.org/atom.xml
-[docs]: http://docs.oxyplot.org/
+[docs.oxyplot.org]: http://docs.oxyplot.org/
 
 [repository]: https://github.com/oxyplot/oxyplot
 [Source/Examples]: https://github.com/oxyplot/oxyplot/tree/master/Source/Examples
@@ -102,7 +100,7 @@ The project is supported by
 
 [example browser]: http://resources.oxyplot.org/examplebrowser/
 
-[discussion.oxyplot.org]: http://oxyplot.userecho.com/
+[discussion.oxyplot.org]: http://discussion.oxyplot.org/
 [chat room]: https://gitter.im/oxyplot/oxyplot
 [Stack Overflow]: http://stackoverflow.com/questions/tagged/oxyplot?sort=newest
 [Xamarin forum]: http://forums.xamarin.com/search?Search=oxyplot
