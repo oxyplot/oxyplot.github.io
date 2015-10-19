@@ -11,8 +11,7 @@ The code is licensed under the MIT license. This is a very permissive and corpor
 
 The core library is a [Portable Class Library] that can be used on different platforms. Custom controls are implemented for WPF, Windows 8, Windows Phone, Windows Phone Silverlight, Windows Forms, Silverlight, GTK#, Xwt, Xamarin.iOS, Xamarin.Android, Xamarin.Forms and Xamarin.Mac.
 
-- OxyPlot can be tested online with the Silverlight [example browser]
-- The documentation is located at [docs.oxyplot.org][docs]
+- The documentation is located at [docs.oxyplot.org]
 - The latest binaries can be found in the [NuGet packages]
 
 ### Supported platforms
@@ -36,9 +35,13 @@ See the [features] section for more information.
 
 See the [getting started] section for more information about each platform. 
 
+### Xamarin Forms
+
+Make sure you reference and initialize the OxyPlot platform renderers, otherwise you will see nothing. See [getting started with Xamarin Forms] for more information. 
+
 ### Examples
 
-Example code can be found in the [Source/Examples] folder in the [repository]. There is also an online [example browser] based on Silverlight.
+Example code can be found in the [Source/Examples] folder in the [repository]. 
 
 ### Documentation
 
@@ -88,6 +91,7 @@ The project is supported by
 [features]: http://docs.oxyplot.org/en/latest/introduction/features.html
 [contributions]: http://docs.oxyplot.org/en/latest/contribute/
 [getting started]: http://docs.oxyplot.org/en/latest/getting-started/
+[getting started with Xamarin Forms]: http://docs.oxyplot.org/en/latest/getting-started/hello-xamarin-forms.html
 [supported platforms]: http://docs.oxyplot.org/en/latest/views/
 [announcements]: /announcements
 [atom feed]: http://oxyplot.org/atom.xml
@@ -97,8 +101,6 @@ The project is supported by
 [Source/Examples]: https://github.com/oxyplot/oxyplot/tree/master/Source/Examples
 [contributors]: https://github.com/oxyplot/oxyplot/graphs/contributors
 [issues]: https://github.com/oxyplot/oxyplot/issues/
-
-[example browser]: http://resources.oxyplot.org/examplebrowser/
 
 [discussion.oxyplot.org]: http://discussion.oxyplot.org/
 [chat room]: https://gitter.im/oxyplot/oxyplot
