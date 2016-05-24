@@ -26,7 +26,8 @@ version: 2015.1
 docs: http://docs.oxyplot.org/
 forum: http://discussion.oxyplot.org/
 nuget: http://www.nuget.org/packages?q=oxyplot
-examples: http://resources.oxyplot.org/examplebrowser/
+myget: https://www.myget.org/feed/Packages/oxyplot
+examples: https://github.com/oxyplot/oxyplot/tree/develop/Source/Examples/
 twitter: http://twitter.com/search?q=oxyplot
 so: http://stackoverflow.com/questions/tagged/oxyplot?sort=newest
 chat: https://gitter.im/oxyplot/oxyplot
