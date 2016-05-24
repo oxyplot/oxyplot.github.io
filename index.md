@@ -12,7 +12,8 @@ The code is licensed under the MIT license. This is a very permissive and corpor
 The core library is a [Portable Class Library] that can be used on different platforms. Custom controls are implemented for WPF, Windows 8, Windows Phone, Windows Phone Silverlight, Windows Forms, Silverlight, GTK#, Xwt, Xamarin.iOS, Xamarin.Android, Xamarin.Forms and Xamarin.Mac.
 
 - The documentation is located at [docs.oxyplot.org]
-- The latest binaries can be found in the [NuGet packages]
+- The latest stable release can be found at [NuGet][NuGet packages]
+- The latest pre-release can be found at [MyGet][MyGet packages]
 
 ### Supported platforms
 
@@ -82,7 +83,8 @@ The project is supported by
 
 [Example plot]: /public/images/normal-distributions.png
 [NuGet]: http://www.nuget.org/
-[NuGet packages]: http://www.nuget.org/packages?q=oxyplot
+[NuGet packages]: {{ site.nuget }}
+[MyGet packages]: {{ site.myget }}
 [Portable Class Library]: http://msdn.microsoft.com/en-us/library/vstudio/gg597391(v=vs.100).aspx
 [pdf]: http://docs.oxyplot.org/en/latest/export/export-pdf.html
 [png]: http://docs.oxyplot.org/en/latest/export/export-png.html
