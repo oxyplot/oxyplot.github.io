@@ -13,5 +13,5 @@ To enable stepping through the source code, it is no longer required to set up t
 
 ![GitLink settings]
 
-[GitLink example]: /public/images/gitlink-example.png
-[GitLink settings]: /public/images/gitlink-settings.png
+[GitLink example]: /public/images/posts/2014-12-10-gitlink-example.png
+[GitLink settings]: /public/images/posts/2014-12-10-gitlink-settings.png
