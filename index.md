@@ -29,7 +29,7 @@ See the [features] section for more information.
 
 ### Getting started
 
-1. Use the [NuGet] package manager to add the latest [stable][NuGet packages] or [pre-release][MyGet packages] for your platform. 
+1. Use the [NuGet] package manager to add the latest [stable][NuGet packages] or [pre-release][MyGet packages] package for your platform. 
 2. Add a `PlotView` control to your user interface. 
 3. Create a `PlotModel`
 4. Bind or assign the `PlotModel` to the `Model` property of the control.
@@ -94,7 +94,7 @@ The project is supported by
 [contributions]: http://docs.oxyplot.org/en/latest/contribute/
 [getting started]: http://docs.oxyplot.org/en/latest/getting-started/
 [getting started with Xamarin Forms]: http://docs.oxyplot.org/en/latest/getting-started/hello-xamarin-forms.html
-[supported platforms]: http://docs.oxyplot.org/en/latest/views/
+[supported platforms]: http://docs.oxyplot.org/en/latest/introduction/
 [announcements]: /announcements
 [atom feed]: http://oxyplot.org/atom.xml
 [docs.oxyplot.org]: http://docs.oxyplot.org/
