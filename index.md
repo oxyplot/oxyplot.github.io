@@ -29,7 +29,7 @@ See the [features] section for more information.
 
 ### Getting started
 
-1. Use the [NuGet] package manager to add the [OxyPlot package][NuGet packages] for your platform. 
+1. Use the [NuGet] package manager to add the latest [stable][NuGet packages] or [pre-release][MyGet packages] for your platform. 
 2. Add a `PlotView` control to your user interface. 
 3. Create a `PlotModel`
 4. Bind or assign the `PlotModel` to the `Model` property of the control.
