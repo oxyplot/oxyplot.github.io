@@ -11,7 +11,7 @@ The code is licensed under the MIT license. This is a very permissive and corpor
 
 The core library is a [Portable Class Library] that can be used on different platforms. Custom controls are implemented for WPF, Windows 8, Windows Phone, Windows Phone Silverlight, Windows Forms, Silverlight, GTK#, Xwt, Xamarin.iOS, Xamarin.Android, Xamarin.Forms and Xamarin.Mac.
 
-- The documentation is located at [docs.oxyplot.org]
+- The documentation is located at [https://oxyplot.readthedocs.io/]
 - The latest stable release can be found at [NuGet][NuGet packages]
 - The latest pre-release can be found at [MyGet][MyGet packages]
 
@@ -50,7 +50,7 @@ The documentation can be found at [docs.oxyplot.org]. Note that it is under cons
 
 ### Questions
 
-Use the discussion forum at [discussion.oxyplot.org] if you have questions regarding the library. You can also try the [chat room], [Stack Overflow] or the [Xamarin forum].
+Use the discussion forum at [oxyplot.userecho.com] if you have questions regarding the library. You can also try the [chat room], [Stack Overflow] or the [Xamarin forum].
 
 ### Issues
 
@@ -86,25 +86,25 @@ The project is supported by
 [NuGet packages]: {{ site.nuget }}
 [MyGet packages]: {{ site.myget }}
 [Portable Class Library]: http://msdn.microsoft.com/en-us/library/vstudio/gg597391(v=vs.100).aspx
-[pdf]: http://docs.oxyplot.org/en/latest/export/export-pdf.html
-[png]: http://docs.oxyplot.org/en/latest/export/export-png.html
-[svg]: http://docs.oxyplot.org/en/latest/export/export-svg.html
+[pdf]: https://oxyplot.readthedocs.io/en/latest/export/export-pdf.html
+[png]: https://oxyplot.readthedocs.io/en/latest/export/export-png.html
+[svg]: https://oxyplot.readthedocs.io/en/latest/export/export-svg.html
 
-[features]: http://docs.oxyplot.org/en/latest/introduction/features.html
-[contributions]: http://docs.oxyplot.org/en/latest/contribute/
-[getting started]: http://docs.oxyplot.org/en/latest/getting-started/
-[getting started with Xamarin Forms]: http://docs.oxyplot.org/en/latest/getting-started/hello-xamarin-forms.html
-[supported platforms]: http://docs.oxyplot.org/en/latest/introduction/
+[features]: https://oxyplot.readthedocs.io/en/latest/introduction/features.html
+[contributions]: https://oxyplot.readthedocs.io/en/latest/contribute/
+[getting started]: https://oxyplot.readthedocs.io/en/latest/getting-started/
+[getting started with Xamarin Forms]: https://oxyplot.readthedocs.io/en/latest/getting-started/hello-xamarin-forms.html
+[supported platforms]: https://oxyplot.readthedocs.io/en/latest/introduction/
 [announcements]: /announcements
 [atom feed]: http://oxyplot.org/atom.xml
-[docs.oxyplot.org]: http://docs.oxyplot.org/
+[https://oxyplot.readthedocs.io/]: https://oxyplot.readthedocs.io/en/latest/
 
 [repository]: https://github.com/oxyplot/oxyplot
 [Source/Examples]: https://github.com/oxyplot/oxyplot/tree/master/Source/Examples
 [contributors]: https://github.com/oxyplot/oxyplot/graphs/contributors
 [issues]: https://github.com/oxyplot/oxyplot/issues/
 
-[discussion.oxyplot.org]: http://discussion.oxyplot.org/
+[oxyplot.userecho.com]: https://oxyplot.userecho.com/
 [chat room]: https://gitter.im/oxyplot/oxyplot
 [Stack Overflow]: http://stackoverflow.com/questions/tagged/oxyplot?sort=newest
 [Xamarin forum]: http://forums.xamarin.com/search?Search=oxyplot
