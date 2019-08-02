@@ -91,7 +91,7 @@ The project is supported by
 [svg]: https://oxyplot.readthedocs.io/en/latest/export/export-svg.html
 
 [features]: https://oxyplot.readthedocs.io/en/latest/introduction/features.html
-[contributions]: https://oxyplot.readthedocs.io/en/latest/contribute/
+[contributions]: https://github.com/oxyplot/oxyplot/blob/develop/.github/CONTRIBUTING.md
 [getting started]: https://oxyplot.readthedocs.io/en/latest/getting-started/
 [getting started with Xamarin Forms]: https://oxyplot.readthedocs.io/en/latest/getting-started/hello-xamarin-forms.html
 [supported platforms]: https://oxyplot.readthedocs.io/en/latest/introduction/
