@@ -29,7 +29,7 @@ nuget: https://www.nuget.org/packages?q=oxyplot
 myget: https://www.myget.org/feed/oxyplot/package/nuget/OxyPlot.Core
 examples: https://github.com/oxyplot/oxyplot/tree/develop/Source/Examples/
 twitter: https://twitter.com/search?q=oxyplot
-so: https://stackoverflow.com/questions/tagged/oxyplot?sort=newest
+stackOverflow: https://stackoverflow.com/questions/tagged/oxyplot?sort=newest
 chat: https://gitter.im/oxyplot/oxyplot
 
 github:

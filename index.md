@@ -46,15 +46,15 @@ Example code can be found in the [Source/Examples] folder in the [repository].
 
 ### Documentation
 
-The documentation can be found at [docs.oxyplot.org]. Note that it is under construction. Please contribute!
+The documentation can be found at [oxyplot.readthedocs.io]. Note that it is under construction. Please contribute!
 
 ### Questions
 
-Use the discussion forum at [oxyplot.userecho.com] if you have questions regarding the library. You can also try the [chat room], [Stack Overflow] or the [Xamarin forum].
+Use [Stack Overflow] if you have questions regarding the library. You can also try the [chat room] or the [Xamarin forum].
 
 ### Issues
 
-Feature requests and bugs should be added to the [issues] section at GitHub. Please do not use the issues section for questions.
+Feature requests and bug reports should be added to the [issues] section at GitHub. Please do not use the issues section for questions.
 
 ### Announcements
 
@@ -71,15 +71,6 @@ The project is supported by
 - [Jetbrains]
   - [ReSharper]
   - [dotCover]
-- [NDepend]
-  - [NDepend v6][NDepend]
-- [Red Gate Software]
-  - [ANTS]
-- [Xamarin]
-  - [Xamarin Studio][Xamarin]
-- [OzCode]
-  - [OzCode VS extension]
-- [UserEcho]
 
 [Example plot]: /public/images/normal-distributions.png
 [NuGet]: http://www.nuget.org/
@@ -96,8 +87,8 @@ The project is supported by
 [getting started with Xamarin Forms]: https://oxyplot.readthedocs.io/en/latest/getting-started/hello-xamarin-forms.html
 [supported platforms]: https://oxyplot.readthedocs.io/en/latest/introduction/
 [announcements]: /announcements
-[atom feed]: http://oxyplot.org/atom.xml
-[https://oxyplot.readthedocs.io/]: https://oxyplot.readthedocs.io/en/latest/
+[atom feed]: https://oxyplot.github.io/atom.xml
+[oxyplot.readthedocs.io]: https://oxyplot.readthedocs.io/en/latest/
 
 [repository]: https://github.com/oxyplot/oxyplot
 [Source/Examples]: https://github.com/oxyplot/oxyplot/tree/master/Source/Examples
