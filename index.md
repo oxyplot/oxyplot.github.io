@@ -11,7 +11,7 @@ The code is licensed under the MIT license. This is a very permissive and corpor
 
 The core library is a [Portable Class Library] that can be used on different platforms. Custom controls are implemented for WPF, Windows 8, Windows Phone, Windows Phone Silverlight, Windows Forms, Silverlight, GTK#, Xwt, Xamarin.iOS, Xamarin.Android, Xamarin.Forms and Xamarin.Mac.
 
-- The documentation is located at [https://oxyplot.readthedocs.io/]
+- The documentation is located at [oxyplot.readthedocs.io]
 - The latest stable release can be found at [NuGet][NuGet packages]
 - The latest pre-release can be found at [MyGet][MyGet packages]
 
