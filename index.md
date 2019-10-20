@@ -42,7 +42,7 @@ Make sure you reference and initialize the OxyPlot platform renderers, otherwise
 
 ### Examples
 
-Example code can be found in the [Source/Examples] folder in the [repository]. 
+Example code can be found in the `Source/Examples` folder in each repository. The [Example Library] contains examples that can be used on all platforms.
 
 ### Documentation
 
@@ -92,6 +92,7 @@ The project is supported by
 
 [repository]: https://github.com/oxyplot/oxyplot
 [Source/Examples]: https://github.com/oxyplot/oxyplot/tree/master/Source/Examples
+[Example Library]: https://github.com/oxyplot/oxyplot/tree/develop/Source/Examples/ExampleLibrary
 [contributors]: https://github.com/oxyplot/oxyplot/graphs/contributors
 [issues]: https://github.com/oxyplot/oxyplot/issues/
 
