@@ -11,18 +11,18 @@ All discussion threads have been migrated to [discussion.oxyplot.org][forum] whi
 
 The [website][website] and [documentation][/docs] pages are now built by [Jekyll][jk] and hosted with [GitHub pages][pages]. There is even an [announcements feed][feed]! The content can be edited in the [oxyplot.github.io repository][ghp]. 
 
-[CodePlex]: http://oxyplot.codeplex.com/
-[GitHub]: http://github.com/oxyplot/oxyplot
-[Github pages]: http://pages.github.com/
+[CodePlex]: https://oxyplot.codeplex.com/
+[GitHub]: https://github.com/oxyplot/oxyplot
+[Github pages]: https://pages.github.com/
 [gh-api]: https://developer.github.com/v3/
-[issue tracker]: http://github.com/oxyplot/oxyplot/issues
-[website]: http://oxyplot.org/
-[docs]: http://oxyplot.org/documentation
-[announcements]: http://oxyplot.org/announcements
-[discussion]: http://discussion.oxyplot.org/
-[forum]: http://oxyplot.userecho.com/
-[userecho]: http://www.userecho.com/
-[ghp]: http://github.com/oxyplot/oxyplot.github.io
-[feed]: http://oxyplot.org/atom.xml
-[jk]: http://jekyllrb.com/
-[migration-tools]: http://github.com/objorke/CodePlexMigrationTools
+[issue tracker]: https://github.com/oxyplot/oxyplot/issues
+[website]: https://oxyplot.org/
+[docs]: https://oxyplot.org/documentation
+[announcements]: https://oxyplot.org/announcements
+[discussion]: https://discussion.oxyplot.org/
+[forum]: https://oxyplot.userecho.com/
+[userecho]: https://www.userecho.com/
+[ghp]: https://github.com/oxyplot/oxyplot.github.io
+[feed]: https://oxyplot.org/atom.xml
+[jk]: https://jekyllrb.com/
+[migration-tools]: https://github.com/objorke/CodePlexMigrationTools

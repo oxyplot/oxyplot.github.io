@@ -10,5 +10,5 @@ Use [Stack Overflow][stackOverflow] if you have questions. If you find a bug or 
 [license]: https://raw.githubusercontent.com/oxyplot/oxyplot/master/LICENSE
 [github]: https://github.com/oxyplot/oxyplot
 [ue]: https://oxyplot.userecho.com/
-[stackOverflow]: http://stackoverflow.com/questions/tagged/oxyplot
+[stackOverflow]: https://stackoverflow.com/questions/tagged/oxyplot
 [issues]: https://github.com/oxyplot/oxyplot/issues

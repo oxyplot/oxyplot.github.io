@@ -11,7 +11,7 @@ The example plot rendered on a retina display:
 ![Example plot]
 
 [Example plot]: /public/images/normal-distributions-mac.png
-[Xamarin.Mac]: http://xamarin.com/platform
-[Unified API]: http://developer.xamarin.com/guides/cross-platform/macios/unified/
-[OxyPlot.Xamarin.iOS]: http://www.nuget.org/packages/OxyPlot.XamarinIOS
-[OxyPlot.Xamarin.Mac]: http://www.nuget.org/packages/OxyPlot.Xamarin.Mac
+[Xamarin.Mac]: https://xamarin.com/platform
+[Unified API]: https://developer.xamarin.com/guides/cross-platform/macios/unified/
+[OxyPlot.Xamarin.iOS]: https://www.nuget.org/packages/OxyPlot.XamarinIOS
+[OxyPlot.Xamarin.Mac]: https://www.nuget.org/packages/OxyPlot.Xamarin.Mac

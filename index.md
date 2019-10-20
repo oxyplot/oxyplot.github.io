@@ -7,7 +7,7 @@ published: true
 
 OxyPlot is a cross-platform plotting library for .NET. 
 
-The code is licensed under the MIT license. This is a very permissive and corporate friendly license. See [opensource.org](http://opensource.org/licenses/MIT) and [tl;dr](https://tldrlegal.com/license/mit-license) for more details.
+The code is licensed under the MIT license. This is a very permissive and corporate friendly license. See [opensource.org](https://opensource.org/licenses/MIT) and [tl;dr](https://tldrlegal.com/license/mit-license) for more details.
 
 The core library is a [Portable Class Library] that can be used on different platforms. Custom controls are implemented for WPF, Windows 8, Windows Phone, Windows Phone Silverlight, Windows Forms, Silverlight, GTK#, Xwt, Xamarin.iOS, Xamarin.Android, Xamarin.Forms and Xamarin.Mac.
 
@@ -73,10 +73,10 @@ The project is supported by
   - [dotCover]
 
 [Example plot]: /public/images/normal-distributions.png
-[NuGet]: http://www.nuget.org/
+[NuGet]: https://www.nuget.org/
 [NuGet packages]: {{ site.nuget }}
 [MyGet packages]: {{ site.myget }}
-[Portable Class Library]: http://msdn.microsoft.com/en-us/library/vstudio/gg597391(v=vs.100).aspx
+[Portable Class Library]: https://msdn.microsoft.com/en-us/library/vstudio/gg597391(v=vs.100).aspx
 [pdf]: https://oxyplot.readthedocs.io/en/latest/export/export-pdf.html
 [png]: https://oxyplot.readthedocs.io/en/latest/export/export-png.html
 [svg]: https://oxyplot.readthedocs.io/en/latest/export/export-svg.html
@@ -97,24 +97,24 @@ The project is supported by
 
 [oxyplot.userecho.com]: https://oxyplot.userecho.com/
 [chat room]: https://gitter.im/oxyplot/oxyplot
-[Stack Overflow]: http://stackoverflow.com/questions/tagged/oxyplot?sort=newest
-[Xamarin forum]: http://forums.xamarin.com/search?Search=oxyplot
+[Stack Overflow]: https://stackoverflow.com/questions/tagged/oxyplot?sort=newest
+[Xamarin forum]: https://forums.xamarin.com/search?Search=oxyplot
 [twitter]: https://twitter.com/search?q=oxyplot
 [twitter-hashtag]: https://twitter.com/search?q=%23oxyplot&src=hash
 
-[xamarin-component]: http://components.xamarin.com/
-[xamarin-mac]: http://xamarin.com/mac
-[mono-mac]: http://www.mono-project.com/MonoMac
+[xamarin-component]: https://components.xamarin.com/
+[xamarin-mac]: https://xamarin.com/mac
+[mono-mac]: https://www.mono-project.com/MonoMac
 
-[Jetbrains]: http://www.jetbrains.com/
-[ReSharper]: http://www.jetbrains.com/resharper/
-[dotCover]: http://www.jetbrains.com/dotcover/index.html?topDC
-[NDepend]: http://www.ndepend.com/
-[Red Gate Software]: http://www.red-gate.com/
-[ANTS]: http://www.red-gate.com/products/dotnet-development/ants-performance-profiler/
-[Xamarin]: http://www.xamarin.com/
-[OzCode]: http://www.oz-code.com/
-[OzCode VS extension]: http://visualstudiogallery.msdn.microsoft.com/36925113-cdce-4953-a5d6-fb3d2912dad7
-[UserEcho]: http://www.userecho.com/
+[Jetbrains]: https://www.jetbrains.com/
+[ReSharper]: https://www.jetbrains.com/resharper/
+[dotCover]: https://www.jetbrains.com/dotcover/index.html?topDC
+[NDepend]: https://www.ndepend.com/
+[Red Gate Software]: https://www.red-gate.com/
+[ANTS]: https://www.red-gate.com/products/dotnet-development/ants-performance-profiler/
+[Xamarin]: https://www.xamarin.com/
+[OzCode]: https://www.oz-code.com/
+[OzCode VS extension]: https://visualstudiogallery.msdn.microsoft.com/36925113-cdce-4953-a5d6-fb3d2912dad7
+[UserEcho]: https://www.userecho.com/
 
-[jetbrains-banner]: http://www.jetbrains.com/img/banners/Codebetter.png
+[jetbrains-banner]: https://www.jetbrains.com/img/banners/Codebetter.png

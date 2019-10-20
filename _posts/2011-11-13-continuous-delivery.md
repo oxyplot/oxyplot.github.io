@@ -9,7 +9,7 @@ The build server is now based on [TeamCity][teamcity] and everything is automate
 - it runs all [NUnit][nunit] tests and finds code coverage
 - it pushes [NuGet][nuget] packages
 
-[teamcity]: http://www.jetbrains.com/teamcity/
-[cd]: http://en.wikipedia.org/wiki/Continuous_delivery
-[nunit]: http://www.nunit.org/
-[nuget]: http://www.nuget.org/
+[teamcity]: https://www.jetbrains.com/teamcity/
+[cd]: https://en.wikipedia.org/wiki/Continuous_delivery
+[nunit]: https://www.nunit.org/
+[nuget]: https://www.nuget.org/

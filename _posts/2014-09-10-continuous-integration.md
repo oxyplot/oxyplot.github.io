@@ -30,11 +30,11 @@ Another great feature is that every pull request on GitHub will
 automatically trig a build on AppVeyor. A broken build will be shown on
 the pull request page!!
 
-[AppVeyor]: http://appveyor.com/
-[continuous integration]: http://en.wikipedia.org/wiki/Continuous_integration
+[AppVeyor]: https://appveyor.com/
+[continuous integration]: https://en.wikipedia.org/wiki/Continuous_integration
 [oxyplot-ci]: https://ci.appveyor.com/project/objorke/oxyplot
-[StyleCop]: http://stylecop.codeplex.com/
-[Gtk#]: http://www.mono-project.com/docs/gui/gtksharp/
+[StyleCop]: https://stylecop.codeplex.com/
+[Gtk#]: https://www.mono-project.com/docs/gui/gtksharp/
 [Lynx Toolkit]: https://github.com/objorke/lynx-toolkit/
-[chocolatey]: http://chocolatey.org/
-[Example browser]: http://resources.oxyplot.org/examplebrowser/
+[chocolatey]: https://chocolatey.org/
+[Example browser]: https://resources.oxyplot.org/examplebrowser/
