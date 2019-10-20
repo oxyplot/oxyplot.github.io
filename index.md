@@ -46,7 +46,7 @@ Example code can be found in the `Source/Examples` folder in each repository. Th
 
 ### Documentation
 
-The documentation can be found at [oxyplot.readthedocs.io]. Note that it is under construction. Please contribute!
+The documentation can be found at [oxyplot.readthedocs.io].
 
 ### Questions
 
@@ -72,7 +72,7 @@ The project is supported by
   - [ReSharper]
   - [dotCover]
 
-[Example plot]: /public/images/normal-distributions.png
+[Example plot]: /public/images/example1-xamarin-mac.png
 [NuGet]: https://www.nuget.org/
 [NuGet packages]: {{ site.nuget }}
 [MyGet packages]: {{ site.myget }}
