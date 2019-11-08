@@ -64,13 +64,11 @@ News about the library can be found under [announcements]. There is also an [ato
 
 This project is continuously evolving and any kind of help is greatly appreciated. See the [contributions] page for more information about how to get involved.
 
-### Thanks
+### Supported by
 
-The project is supported by
-
-- [Jetbrains]
-  - [ReSharper]
-  - [dotCover]
+<a href="https://www.jetbrains.com/?from=OxyPlot">
+<img src="/public/images/jetbrains.png" alt="Jetbrains" height="100px">
+</a>
 
 [Example plot]: /public/images/example1-xamarin-mac.png
 [NuGet]: https://www.nuget.org/
@@ -118,4 +116,4 @@ The project is supported by
 [OzCode VS extension]: https://visualstudiogallery.msdn.microsoft.com/36925113-cdce-4953-a5d6-fb3d2912dad7
 [UserEcho]: https://www.userecho.com/
 
-[jetbrains-banner]: https://www.jetbrains.com/img/banners/Codebetter.png
+[jetbrains-logo]: https://pbs.twimg.com/profile_images/675061989446713344/3HgWn-uJ_400x400.png
