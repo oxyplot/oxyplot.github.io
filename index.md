@@ -67,7 +67,7 @@ This project is continuously evolving and any kind of help is greatly appreciate
 ### Supported by
 
 <a href="https://www.jetbrains.com/?from=OxyPlot">
-<img src="/public/images/jetbrains.png" alt="Jetbrains" height="100px">
+<img src="/public/images/jetbrains.png" alt="Jetbrains" style="height: 100px">
 </a>
 
 [Example plot]: /public/images/example1-xamarin-mac.png
